@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Flipkart</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="assets/js/script.js" defer></script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="brand">
+          <span class="brand-name">
+            <img src="assets/pictures/flipkart.png" alt="flipkart" />
+          </span>
+          <span class="plus-text">
+            Explore<span class="plus-sub-text">Plus</span>
+            <img src="assets/icons/plus.png" alt="plus" />
+          </span>
+        </div>
+
+        <div class="search-bar">
+          <input
+            type="text"
+            name="search"
+            id=""
+            class="search-field"
+            placeholder="Search for products, brands and more"
+            value="smartphone"
+          />
+          <span class="search-icon">
+            <img src="assets/icons/search-icon.svg" alt="search" />
+          </span>
+        </div>
+
+        <div class="login">
+          <div class="login-text">Login</div>
+        </div>
+
+        <div class="nav-text">
+          <span class="text">Become a Seller</span>
+        </div>
+
+        <div class="nav-text">
+          <span class="text">More</span>
+          <span class="arrow">
+            <img src="assets/icons/arrow-white.svg" alt="arrow" />
+          </span>
+        </div>
+        <div class="nav-text">
+          <span class="cart">
+            <img src="assets/icons/cart.svg" alt="cart" />
+          </span>
+          <span class="text">Cart</span>
+        </div>
+      </div>
+    </nav>
+
+    <div class="categories-tab">
+      <ul class="categories-tab-container">
+        <li>
+          <span class="category">Electronics</span
+          ><span class="category-arrow"
+            ><img src="assets/icons/arrow-gray.svg" alt="arrow"
+          /></span>
+        </li>
+        <li>
+          <span class="category">TVs & Appliances</span
+          ><span class="category-arrow"
+            ><img src="assets/icons/arrow-gray.svg" alt="arrow"
+          /></span>
+        </li>
+        <li>
+          <span class="category">Men</span
+          ><span class="category-arrow"
+            ><img src="assets/icons/arrow-gray.svg" alt="arrow"
+          /></span>
+        </li>
+        <li>
+          <span class="category">Women</span
+          ><span class="category-arrow"
+            ><img src="assets/icons/arrow-gray.svg" alt="arrow"
+          /></span>
+        </li>
+        <li>
+          <span class="category">Baby & Kids</span
+          ><span class="category-arrow"
+            ><img src="assets/icons/arrow-gray.svg" alt="arrow"
+          /></span>
+        </li>
+        <li>
+          <span class="category">Home & Furniture</span
+          ><span class="category-arrow"
+            ><img src="assets/icons/arrow-gray.svg" alt="arrow"
+          /></span>
+        </li>
+        <li>
+          <span class="category">Sports, Books & More</span
+          ><span class="category-arrow"
+            ><img src="assets/icons/arrow-gray.svg" alt="arrow"
+          /></span>
+        </li>
+        <li>
+          <span class="category">Flights</span>
+        </li>
+        <li><span class="category">Offer Zone</span></li>
+      </ul>
+    </div>
+
+    <main class="main-section">
+      <div class="filter-section-container">
+        <div class="section-heading-filter">
+          <div class="filter-heading">
+            <span class="section-heading">Filters</span>
+            <span class="clear" id="filter-heading-clear">clear all</span>
+          </div>
+          <div class="filtered">
+            <span class="filtered-item">
+              <span class="close">✕</span>
+              <span class="filter">Min-₹30000+</span>
+            </span>
+
+            <span class="filtered-item">
+              <span class="close">✕</span>
+              <span class="filter">SAMSUNG</span>
+            </span>
+          </div>
+        </div>
+        <div class="filter-section">
+          <span class="sub-heading">categories</span>
+          <div class="category-items">
+            <span class="img">
+              <img src="assets/icons/arrow-gray.svg" alt="arrow" />
+              <span class="text">Mobiles & Accessories</span>
+            </span>
+            <span class="product">Mobiles</span>
+          </div>
+        </div>
+        <div class="filter-section">
+          <span class="sub-heading">PRICE</span>
+          <div class="price-range"></div>
+          <div class="min-max-drop">
+            <div class="range-dropdown">
+              <select name="min-price" id="min-price" class="dropdown-price">
+                <option value="min">Min</option>
+                <option value="10000">10000</option>
+                <option value="15000">15000</option>
+                <option value="20000">20000</option>
+                <option value="30000">30000</option>
+              </select>
+            </div>
+            <div class="to-range">to</div>
+            <div class="range-dropdown">
+              <select name="max-price" id="max-price" class="dropdown-price">
+                <option value="10000">10000</option>
+                <option value="15000">15000</option>
+                <option value="20000">20000</option>
+                <option value="30000">30000</option>
+                <option value="max">30000+</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="filter-section">
+          <span class="sub-heading">BRAND</span>
+          <div class="brand-section">
+            <div class="clear-checked-brands"><span>✕</span> Clear all</div>
+            <div class="brand-search">
+              <img src="assets/icons/search-gray.svg" alt="" />
+              <input
+                type="text"
+                name="brand"
+                id="search-brand"
+                placeholder="Search Brand"
+              />
+            </div>
+            <div class="brands">
+              <ul class="checked-brands checkbox-list">
+                <li>
+                  <input type="checkbox" name="vivo" id="vivo" checked />
+                  <label for="vivo">vivo</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="samsung" id="samsung" checked />
+                  <label for="samsung">SAMSUNG</label>
+                </li>
+              </ul>
+
+              <ul class="brand-names checkbox-list">
+                <li>
+                  <input type="checkbox" name="OPPO" id="oppo" />
+                  <label for="oppo">OPPO</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="Realme" id="realme" />
+                  <label for="realme">Realme</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="poco" id="poco" />
+                  <label for="poco">POCO</label>
+                </li>
+              </ul>
+            </div>
+            <div class="more .brand-more">87 more</div>
+          </div>
+        </div>
+        <div class="filter-section">
+          <span class="sub-heading assured">
+            <input type="checkbox" name="f-assured" id="f-assured" />
+            <label for="f-assured"
+              ><img src="assets/icons/assured.png" alt=""
+            /></label>
+          </span>
+        </div>
+        <div class="filter-section">
+          <span class="sub-heading">customer ratings</span>
+          <ul class="customer-ratings checkbox-list">
+            <li>
+              <input type="checkbox" name="rating-four" id="rating-four" />
+              <label for="rating-four">4★ & above</label>
+            </li>
+            <li>
+              <input type="checkbox" name="rating-three" id="rating-three" />
+              <label for="rating-three">3★ & above</label>
+            </li>
+          </ul>
+        </div>
+        <div class="filter-section">
+          <span class="sub-heading">RAM</span>
+          <ul class="ram-lists checkbox-list">
+            <li>
+              <input type="checkbox" name="4gb" id="4gb" />
+              <label for="4gb">4 GB</label>
+            </li>
+            <li>
+              <input type="checkbox" name="3gb" id="3gb" />
+              <label for="3gb">3 GB</label>
+            </li>
+            <li>
+              <input type="checkbox" name="2gb" id="2gb" />
+              <label for="2gb">2 GB</label>
+            </li>
+            <li>
+              <input type="checkbox" name="8gb+" id="8gb+" />
+              <label for="8gb+">8 GB and Above</label>
+            </li>
+            <li>
+              <input type="checkbox" name="6gb" id="6gb" />
+              <label for="6gb">6 GB</label>
+            </li>
+            <li>
+              <input type="checkbox" name="6gb+" id="6gb+" />
+              <label for="6gb+">6 GB Above</label>
+            </li>
+            <li>
+              <input type="checkbox" name="1gb-" id="1gb-" />
+              <label for="1gb-">1GB and Below</label>
+            </li>
+            <li>
+              <input type="checkbox" name="g" id="g" />
+              <label for="g">G</label>
+            </li>
+            <li>
+              <input type="checkbox" name="a" id="a" />
+              <label for="a">A</label>
+            </li>
+          </ul>
+        </div>
+        <div class="filter-section"></div>
+        <div class="filter-section"></div>
+      </div>
+
+      <!--  -->
+      <!--  -->
+      <div class="product-section-container">
+        <div class="product-section-header">
+          <div class="path">
+            <span class="path-text">Home</span>
+            <span class="arrow">
+              <img src="assets/icons/arrow-gray.svg" alt="" />
+            </span>
+            <span class="path-text">Mobiles & Accessories</span>
+            <span class="arrow">
+              <img src="assets/icons/arrow-gray.svg" alt="" />
+            </span>
+            <span class="path-text">Mobiles</span>
+          </div>
+          <div class="results-header">
+            <span class="results-text">
+              Showing 1 - 24 fo 282 results for "smartphones"
+            </span>
+          </div>
+          <div class="sort-by">
+            <span class="sort-by-head">Sort By</span>
+            <ul class="sort-values">
+              <li>Relevance</li>
+              <li>Popularity</li>
+              <li>Price -- Low to High</li>
+              <li>Price -- High to Low</li>
+              <li>Newest First</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
+
+<!-- 112 till 09/08/2024 -->
