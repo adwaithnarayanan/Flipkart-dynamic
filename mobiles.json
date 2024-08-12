@@ -1,0 +1,2382 @@
+{
+  "nav": {
+    "explore": "Explore",
+    "plus": "Plus",
+    "login": "login",
+    "nav-text": ["Become a Seller", "More", "Cart"],
+    "down-arrow-white": "assets/icons/arrow-white.svg",
+    "icons": {
+      "plus-icon": "assets/icons/plus.png",
+      "flipkar-text": "assets/pictures/flipkart.png",
+      "search-blue": "assets/icons/search-icon.svg",
+      "cart-icon": "assets/icons/cart.svg"
+    }
+  },
+  "categories-tab": {
+    "items": [
+      "Electronics",
+      "TV & Appliances",
+      "Men",
+      "Women",
+      "Baby & Kids",
+      "Home & Furniture",
+      "Sports, Books & More",
+      "Flights",
+      "Offer Zone"
+    ],
+    "down-arrow": "assets/icons/cart.svg"
+  },
+  "products": [
+    {
+      "brand": "Apple",
+      "ram": "A",
+      "title": "Apple iPhone 15 (Black, 128 GB)",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "128 GB ROM",
+        "17.02 cm (6.7 inch) Super Retina XDR Display",
+        "12MP + 12MP | 12MP Front Camera",
+        "A15 Bionic Chip, 6 Core Processor Processor"
+      ],
+      "mrp": 79600,
+      "price": 60478,
+      "rating": {
+        "average": 4.6,
+        "count": 77507,
+        "reviewCount": 4339
+      },
+      "image": "assets/pictures/mobiles/iphone-15-black-128.webp"
+    },
+    {
+      "brand": "MOTOROLA",
+      "title": "Motorola g64 5G (Mint Green, 128 GB)",
+      "ram": 8,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+        "16.51 cm (6.5 inch) Full HD+ Display",
+        "50MP (OIS) + 8MP | 16MP Front Camera",
+        "6000 mAh Battery",
+        "Dimensity 7025 Processor"
+      ],
+      "mrp": 17999,
+      "price": 13999,
+      "rating": {
+        "average": 4.2,
+        "count": 22135,
+        "reviewCount": 1204
+      },
+      "image": "assets/pictures/mobiles/moto-g64.webp"
+    },
+    {
+      "brand": "MOTOROLA",
+      "title": "Motorola Edge 50 Fusion (Hot Pink, 256 GB)",
+      "ram": 12,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "12 GB RAM | 256 GB ROM",
+        "17.02 cm (6.7 inch) Full HD+ Display",
+        "50MP + 13MP | 32MP Front Camera",
+        "5000 mAh Battery",
+        "7s Gen 2 Processor"
+      ],
+      "mrp": 27999,
+      "price": 24999,
+      "rating": {
+        "average": 4.5,
+        "count": 25112,
+        "reviewCount": 1767
+      },
+      "image": "assets/pictures/mobiles/moto-edge50.webp"
+    },
+    {
+      "brand": "vivo",
+      "title": "vivo T3 Lite 5G (Majestic Black, 128 GB)",
+      "ram": 6,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+        "16.66 cm (6.56 inch) Display",
+        "50MP + 2MP | 8MP Front Camera",
+        "5000 mAh Battery",
+        "Dimensity 6300 Processor"
+      ],
+      "mrp": 15499,
+      "price": 11499,
+      "rating": {
+        "average": 4.4,
+        "count": 9090,
+        "reviewCount": 317
+      },
+      "image": "assets/pictures/mobiles/vivo-t3-lite-black-128.webp"
+    },
+    {
+      "brand": "MOTOROLA",
+      "title": "Motorola g04s (Concord Black, 64 GB)",
+      "ram": 4,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB",
+        "16.76 cm (6.6 inch) HD+ Display",
+        "50MP Rear Camera | 5MP Front Camera",
+        "5000 mAh Battery",
+        "T606 Processor"
+      ],
+      "mrp": 9999,
+      "price": 6999,
+      "rating": {
+        "average": 4.2,
+        "count": 10141,
+        "reviewCount": 567
+      },
+      "image": "assets/pictures/mobiles/moto-g04s-black-64.webp"
+    },
+    {
+      "brand": "MOTOROLA",
+      "title": "Motorola g64 5G (Ice Lilac, 256 GB)",
+      "ram": 12,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "12 GB RAM | 256 GB ROM | Expandable Upto 1 TB",
+        "16.51 cm (6.5 inch) Full HD+ Display",
+        "50MP (OIS) + 8MP | 16MP Front Camera",
+        "6000 mAh Battery",
+        "Dimensity 7025 Processor"
+      ],
+      "mrp": 19999,
+      "price": 15999,
+      "rating": {
+        "average": 4.2,
+        "count": 13420,
+        "reviewCount": 819
+      },
+      "image": "assets/pictures/mobiles/moto-g64-lilac-256.webp"
+    },
+    {
+      "brand": "MOTOROLA",
+      "title": "Motorola G34 5G (Ocean Green, 128 GB)",
+      "ram": 8,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 128 GB ROM",
+        "16.51 cm (6.5 inch) HD+ Display",
+        "50MP + 2MP | 16MP Front Camera",
+        "5000 mAh Battery",
+        "Snapdragon 695 5G Processor",
+        "Vegan Leather Design"
+      ],
+      "mrp": 14999,
+      "price": 11999,
+      "rating": {
+        "average": 4.2,
+        "count": 113485,
+        "reviewCount": 7828
+      },
+      "image": "assets/pictures/mobiles/moto-g34-green-128.webp"
+    },
+    {
+      "brand": "MOTOROLA",
+      "title": "Motorola Edge 50 Fusion (Hot Pink, 128 GB)",
+      "ram": 8,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 128 GB ROM",
+        "17.02 cm (6.7 inch) Full HD+ Display",
+        "50MP + 13MP | 32MP Front Camera",
+        "5000 mAh Battery",
+        "7s Gen 2 Processor"
+      ],
+      "mrp": 25999,
+      "price": 22999,
+      "rating": {
+        "average": 4.5,
+        "count": 30011,
+        "reviewCount": 1908
+      },
+      "image": "assets/pictures/mobiles/moto-edge50.webp"
+    },
+    {
+      "brand": "MOTOROLA",
+      "title": "Motorola Edge 50 Fusion (Marshmallow Blue, 256 GB)",
+      "ram": 12,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "12 GB RAM | 256 GB ROM",
+        "17.02 cm (6.7 inch) Full HD+ Display",
+        "50MP + 13MP | 32MP Front Camera",
+        "5000 mAh Battery",
+        "7s Gen 2 Processor"
+      ],
+      "mrp": 27999,
+      "price": 24999,
+      "rating": {
+        "average": 4.5,
+        "count": 25112,
+        "reviewCount": 1767
+      },
+      "image": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/5/t/j/edge-50-fusion-pb300002in-motorola-original-imahywzrfagkuyxx.jpeg?q=90"
+    },
+    {
+      "brand": "MOTOROLA",
+      "title": "Motorola Edge 50 Fusion (Marshmallow Blue, 128 GB)",
+      "ram": 8,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 128 GB ROM",
+        "17.02 cm (6.7 inch) Full HD+ Display",
+        "50MP + 13MP | 32MP Front Camera",
+        "5000 mAh Battery",
+        "7s Gen 2 Processor"
+      ],
+      "mrp": 25999,
+      "price": 22999,
+      "rating": {
+        "average": 4.5,
+        "count": 30011,
+        "reviewCount": 1908
+      },
+      "image": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/5/t/j/edge-50-fusion-pb300002in-motorola-original-imahywzrfagkuyxx.jpeg?q=90"
+    },
+    {
+      "brand": "MOTOROLA",
+      "title": "Motorola g64 5G (Pearl Blue, 256 GB)",
+      "ram": 12,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "12 GB RAM | 256 GB ROM | Expandable Upto 1 TB",
+        "16.51 cm (6.5 inch) Full HD+ Display",
+        "50MP (OIS) + 8MP | 16MP Front Camera",
+        "6000 mAh Battery",
+        "Dimensity 7025 Processor"
+      ],
+      "mrp": 19999,
+      "price": 15999,
+      "rating": {
+        "average": 4.2,
+        "count": 13420,
+        "reviewCount": 819
+      },
+      "image": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/c/q/b/g64-5g-pb2e0006in-motorola-original-imagzzd4nmrgsevr.jpeg?q=90"
+    },
+    {
+      "brand": "OPPO",
+      "title": "OPPO K12x 5G with 45W SUPERVOOC Charger In-The-Box (Midnight Voilet, 128 GB)",
+      "ram": 6,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+        "16.94 cm (6.67 inch) HD Display",
+        "32MP + 2MP | 8MP Front Camera",
+        "5100 mAh Battery",
+        "Dimensity 6300 Processor"
+      ],
+      "mrp": 16999,
+      "price": 12999,
+      "rating": {
+        "average": 4.6,
+        "count": 3840,
+        "reviewCount": 59
+      },
+      "image": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/s/m/0/-original-imah37gw2wv2ayrf.jpeg?q=90"
+    },
+    {
+      "brand": "MOTOROLA",
+      "title": "Motorola Edge 50 Fusion (Forest Blue, 128 GB)",
+      "ram": 8,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 128 GB ROM",
+        "17.02 cm (6.7 inch) Full HD+ Display",
+        "50MP + 13MP | 32MP Front Camera",
+        "5000 mAh Battery",
+        "7s Gen 2 Processor"
+      ],
+      "mrp": 25999,
+      "price": 22999,
+      "rating": {
+        "average": 4.5,
+        "count": 30011,
+        "reviewCount": 1908
+      },
+      "image": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/g/w/r/edge-50-fusion-pb300000in-motorola-original-imahywzztyktktpp.jpeg?q=90"
+    },
+    {
+      "brand": "vivo",
+      "title": "vivo T3 Lite 5G (Vibrant Green, 128 GB)",
+      "ram": 6,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+        "16.66 cm (6.56 inch) Display",
+        "50MP + 2MP | 8MP Front Camera",
+        "5000 mAh Battery",
+        "Dimensity 6300 Processor"
+      ],
+      "mrp": 15499,
+      "price": 11499,
+      "rating": {
+        "average": 4.4,
+        "count": 9090,
+        "reviewCount": 317
+      },
+      "image": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/h/i/r/t3-lite-5g-v2356-vivo-original-imah27wmfgkergtx.jpeg?q=90"
+    },
+    {
+      "brand": "Apple",
+      "ram": "A",
+      "title": "Apple iPhone 15 Plus (Blue, 128 GB)",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "128 GB ROM",
+        "17.02 cm (6.7 inch) Super Retina XDR Display",
+        "48MP + 12MP | 12MP Front Camera",
+        "A16 Bionic Chip, 6 Core Processor Processor"
+      ],
+      "mrp": 89600,
+      "price": 74999,
+      "rating": {
+        "average": 4.6,
+        "count": 7780,
+        "reviewCount": 645
+      },
+      "image": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/1/i/x/-original-imagtc6fhhtqjnr9.jpeg?q=90"
+    },
+    {
+      "brand": "vivo",
+      "title": "vivo T3 Lite 5G (Vibrant Green, 128 GB)",
+      "ram": 4,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+        "16.66 cm (6.56 inch) Display",
+        "50MP + 2MP | 8MP Front Camera",
+        "5000 mAh Battery",
+        "Dimensity 6300 Processor"
+      ],
+      "mrp": 14499,
+      "price": 10499,
+      "rating": {
+        "average": 4.4,
+        "count": 7373,
+        "reviewCount": 189
+      },
+      "image": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/h/i/r/t3-lite-5g-v2356-vivo-original-imah27wmfgkergtx.jpeg?q=90"
+    },
+    {
+      "brand": "REDMI",
+      "title": "REDMI 13C (Starshine Green, 128 GB)",
+      "ram": 4,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+        "17.12 cm (6.74 inch) HD+ Display",
+        "50MP Rear Camera | 8MP Front Camera",
+        "5000 mAh Battery",
+        "Helio G85 Processor"
+      ],
+      "mrp": 11999,
+      "price": 7699,
+      "rating": {
+        "average": 4.3,
+        "count": 34388,
+        "reviewCount": 1447
+      },
+      "image": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/u/6/r/-original-imahfk4xenbzxwrh.jpeg?q=90"
+    },
+    {
+      "brand": "MOTOROLA",
+      "title": "Motorola G34 5G (Ice Blue, 128 GB)",
+      "ram": 4,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "4 GB RAM | 128 GB ROM",
+        "16.51 cm (6.5 inch) HD+ Display",
+        "50MP + 2MP | 16MP Front Camera",
+        "5000 mAh Battery",
+        "Snapdragon 695 5G Processor"
+      ],
+      "mrp": 13999,
+      "price": 10999,
+      "rating": {
+        "average": 4.2,
+        "count": 41412,
+        "reviewCount": 3116
+      },
+      "image": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/c/k/9/g34-5g-pb1v0001in-motorola-original-imagwu4r4xze9jwz.jpeg?q=90"
+    },
+    {
+      "brand": "realme",
+      "title": "realme 12x 5G (Woodland Green, 128 GB)",
+      "ram": 8,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 128 GB ROM | Expandable Upto 2 TB",
+        "17.07 cm (6.72 inch) Full HD+ Display",
+        "50MP + 2MP | 8MP Front Camera",
+        "5000 mAh Battery",
+        "Dimensity 6100+ Processor"
+      ],
+      "mrp": 18999,
+      "price": 14999,
+      "rating": {
+        "average": 4.4,
+        "count": 5244,
+        "reviewCount": 233
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/6/t/4/-original-imah3chxfkqxyzm3.jpeg?q=90"
+    },
+    {
+      "brand": "REDMI",
+      "title": "REDMI 13C (Stardust Black, 128 GB)",
+      "ram": 4,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+        "17.12 cm (6.74 inch) HD+ Display",
+        "50MP Rear Camera | 8MP Front Camera",
+        "5000 mAh Battery",
+        "Helio G85 Processor"
+      ],
+      "mrp": 11999,
+      "price": 7699,
+      "rating": {
+        "average": 4.3,
+        "count": 34388,
+        "reviewCount": 1447
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/v/e/a/-original-imahfk4xuk7ntphs.jpeg?q=90"
+    },
+    {
+      "brand": "POCO",
+      "title": "POCO C61  - Locked with Airtel Prepaid (Diamond Dust Black, 64 GB)",
+      "ram": 4,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB",
+        "17.04 cm (6.71 inch) HD+ Display",
+        "8MP Rear Camera | 5MP Front Camera",
+        "5000 mAh Battery",
+        "Helio G36 Processor"
+      ],
+      "mrp": 8999,
+      "price": 5799,
+      "rating": {
+        "average": 4.2,
+        "count": 13855,
+        "reviewCount": 427
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/d/h/s/-original-imah2qyrmtgtzztg.jpeg?q=90"
+    },
+    {
+      "brand": "REDMI",
+      "title": "REDMI 13C (Starfrost White, 128 GB)",
+      "ram": 4,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+        "17.12 cm (6.74 inch) HD+ Display",
+        "50MP Rear Camera | 8MP Front Camera",
+        "5000 mAh Battery",
+        "Helio G85 Processor"
+      ],
+      "mrp": 11999,
+      "price": 7699,
+      "rating": {
+        "average": 4.3,
+        "count": 34388,
+        "reviewCount": 1447
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/t/f/a/-original-imahfk4xp4xcggyt.jpeg?q=90"
+    },
+    {
+      "brand": "MOTOROLA",
+      "title": "Motorola g04s (Sea Green, 64 GB)",
+      "ram": 4,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB",
+        "16.76 cm (6.6 inch) HD+ Display",
+        "50MP Rear Camera | 5MP Front Camera",
+        "5000 mAh Battery",
+        "T606 Processor"
+      ],
+      "mrp": 9999,
+      "price": 6999,
+      "rating": {
+        "average": 4.2,
+        "count": 10141,
+        "reviewCount": 567
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/e/t/5/g04s-pb360001in-motorola-original-imahfc48ru2ktzsx.jpeg?q=90"
+    },
+    {
+      "brand": "REDMI",
+      "title": "REDMI 13C 5G (Starlight Black, 128 GB)",
+      "ram": 4,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+        "17.12 cm (6.74 inch) HD+ Display",
+        "50MP Rear Camera | 5MP Front Camera",
+        "5000 mAh Battery",
+        "Mediatek Dimensity 6100+ Processor"
+      ],
+      "mrp": 13999,
+      "price": 10499,
+      "rating": {
+        "average": 4.3,
+        "count": 13782,
+        "reviewCount": 458
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/g/q/5/-original-imahfkf6jcuhhzyb.jpeg?q=90"
+    },
+    {
+      "brand": "MOTOROLA",
+      "title": "Motorola g04s (Satin Blue, 64 GB)",
+      "ram": 4,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB",
+        "16.76 cm (6.6 inch) HD+ Display",
+        "50MP Rear Camera | 5MP Front Camera",
+        "5000 mAh Battery",
+        "T606 Processor"
+      ],
+      "mrp": 9999,
+      "price": 6999,
+      "rating": {
+        "average": 4.2,
+        "count": 10141,
+        "reviewCount": 567
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/z/k/4/g04s-pb360002in-motorola-original-imahfc48wgbttfkk.jpeg?q=90"
+    },
+    {
+      "brand": "POCO",
+      "title": "POCO C65 (Pastel Blue, 128 GB)",
+      "ram": 6,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+        "17.12 cm (6.74 inch) HD+ Display",
+        "50MP + AI Lens + 2MP | 8MP Front Camera",
+        "5000 mAh Battery",
+        "Helio G85 Processor"
+      ],
+      "mrp": 11999,
+      "price": 7299,
+      "rating": {
+        "average": 4.2,
+        "count": 13411,
+        "reviewCount": 678
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/b/u/8/c65-mzb0g8nin-poco-original-imagw6j2kp5t5jek.jpeg?q=90"
+    },
+    {
+      "brand": "MOTOROLA",
+      "title": "Motorola G34 5G (Charcoal Black, 128 GB)",
+      "ram": 8,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 128 GB ROM",
+        "16.51 cm (6.5 inch) HD+ Display",
+        "50MP + 2MP | 16MP Front Camera",
+        "5000 mAh Battery",
+        "Snapdragon 695 5G Processor"
+      ],
+      "mrp": 14999,
+      "price": 11999,
+      "rating": {
+        "average": 4.2,
+        "count": 113485,
+        "reviewCount": 7828
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/m/o/y/g34-5g-pb1v0000in-motorola-original-imagwu4s8naevwyq.jpeg?q=90"
+    },
+    {
+      "brand": "MOTOROLA",
+      "title": "Motorola g64 5G (Mint Green, 256 GB)",
+      "ram": 12,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "12 GB RAM | 256 GB ROM | Expandable Upto 1 TB",
+        "16.51 cm (6.5 inch) Full HD+ Display",
+        "50MP (OIS) + 8MP | 16MP Front Camera",
+        "6000 mAh Battery",
+        "Dimensity 7025 Processor"
+      ],
+      "mrp": 19999,
+      "price": 15999,
+      "rating": {
+        "average": 4.2,
+        "count": 13420,
+        "reviewCount": 819
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/n/b/s/g64-5g-pb2e0005in-motorola-original-imagzzd5zagkg9gu.jpeg?q=90"
+    },
+    {
+      "brand": "SAMSUNG",
+      "title": "SAMSUNG Galaxy S23 FE (Mint, 128 GB)",
+      "ram": 8,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 128 GB ROM",
+        "16.26 cm (6.4 inch) Full HD+ Display",
+        "50MP + 12MP | 10MP Front Camera",
+        "4500 mAh Battery",
+        "Samsung Exynos 2200 Processor"
+      ],
+      "mrp": 79999,
+      "price": 34999,
+      "rating": {
+        "average": 4.3,
+        "count": 11640,
+        "reviewCount": 783
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/m/c/s/-original-imagztn7sycc4h84.jpeg?q=90"
+    },
+    {
+      "brand": "POCO",
+      "title": "POCO C65 (Pastel Blue, 128 GB)",
+      "ram": 4,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+        "17.12 cm (6.74 inch) HD+ Display",
+        "50MP + AI Lens + 2MP | 8MP Front Camera",
+        "5000 mAh Battery",
+        "Helio G85 Processor"
+      ],
+      "mrp": 10999,
+      "price": 6799,
+      "rating": {
+        "average": 4.3,
+        "count": 41252,
+        "reviewCount": 2173
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/b/u/8/c65-mzb0g8nin-poco-original-imagw6j2kp5t5jek.jpeg?q=90"
+    },
+    {
+      "brand": "SAMSUNG",
+      "title": "SAMSUNG Galaxy S23 5G (Green, 256 GB)",
+      "ram": 8,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 256 GB ROM",
+        "15.49 cm (6.1 inch) Full HD+ Display",
+        "50MP + 10MP + 12MP | 12MP Front Camera",
+        "3900 mAh Lithium Ion Battery",
+        "Qualcomm Snapdragon 8 Gen 2 Processor"
+      ],
+      "mrp": 95999,
+      "price": 49999,
+      "rating": {
+        "average": 4.5,
+        "count": 12403,
+        "reviewCount": 1172
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/h/q/9/-original-imagzm8r8jzcumfa.jpeg?q=90"
+    },
+    {
+      "brand": "REDMI",
+      "title": "REDMI 13C 5G (Startrail Green, 128 GB)",
+      "ram": 4,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+        "17.12 cm (6.74 inch) HD+ Display",
+        "50MP Rear Camera | 5MP Front Camera",
+        "5000 mAh Battery",
+        "Mediatek Dimensity 6100+ Processor"
+      ],
+      "mrp": 13999,
+      "price": 10499,
+      "rating": {
+        "average": 4.3,
+        "count": 13782,
+        "reviewCount": 458
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/h/v/h/-original-imahfkf6brqzpg76.jpeg?q=90"
+    },
+    {
+      "brand": "REDMI",
+      "title": "REDMI 13C 5G (Startrail Silver, 128 GB)",
+      "ram": 4,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+        "17.12 cm (6.74 inch) HD+ Display",
+        "50MP Rear Camera | 5MP Front Camera",
+        "5000 mAh Battery",
+        "Mediatek Dimensity 6100+ Processor"
+      ],
+      "mrp": 13999,
+      "price": 10499,
+      "rating": {
+        "average": 4.3,
+        "count": 13782,
+        "reviewCount": 458
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/d/f/0/-original-imahfkf6uyxnvmcy.jpeg?q=90"
+    },
+    {
+      "brand": "realme",
+      "title": "realme C63 (Jade Green, 128 GB)",
+      "ram": 4,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "4 GB RAM | 128 GB ROM | Expandable Upto 2 TB",
+        "17.13 cm (6.745 inch) HD+ Display",
+        "50MP Rear Camera | 8MP Front Camera",
+        "5000 mAh Battery",
+        "T612 Processor"
+      ],
+      "mrp": 10999,
+      "price": 8999,
+      "rating": {
+        "average": 4.4,
+        "count": 924,
+        "reviewCount": 39
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/c/a/r/-original-imah2pgpfmeadck9.jpeg?q=90"
+    },
+    {
+      "brand": "POCO",
+      "title": "POCO C65 (Pastel Green, 128 GB)",
+      "ram": 4,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+        "17.12 cm (6.74 inch) HD+ Display",
+        "50MP + AI Lens + 2MP | 8MP Front Camera",
+        "5000 mAh Battery",
+        "Helio G85 Processor"
+      ],
+      "mrp": 10999,
+      "price": 6799,
+      "rating": {
+        "average": 4.3,
+        "count": 41252,
+        "reviewCount": 2173
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/g/1/p/-original-imagy2v5kfnq97xn.jpeg?q=90"
+    },
+    {
+      "pid": "MOBGNPGZFWUKKJGR",
+      "brand": "SAMSUNG",
+      "title": "SAMSUNG Galaxy S23 5G (Lavender, 128 GB)",
+      "ram": 8,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 128 GB ROM",
+        "15.49 cm (6.1 inch) Full HD+ Display",
+        "50MP + 10MP + 12MP | 12MP Front Camera",
+        "3900 mAh Lithium Ion Battery",
+        "Qualcomm Snapdragon 8 Gen 2 Processor"
+      ],
+      "mrp": 89999,
+      "price": 44999,
+      "rating": {
+        "average": 4.5,
+        "count": 12403,
+        "reviewCount": 1172
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/g/r/b/-original-imagzm8q5gtgycxu.jpeg?q=90"
+    },
+    {
+      "pid": "MOBGNPGYWGZAUZGK",
+      "brand": "SAMSUNG",
+      "title": "SAMSUNG Galaxy S23 5G (Green, 128 GB)",
+      "ram": 8,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 128 GB ROM",
+        "15.49 cm (6.1 inch) Full HD+ Display",
+        "50MP + 10MP + 12MP | 12MP Front Camera",
+        "3900 mAh Lithium Ion Battery",
+        "Qualcomm Snapdragon 8 Gen 2 Processor"
+      ],
+      "mrp": 89999,
+      "price": 44999,
+      "rating": {
+        "average": 4.5,
+        "count": 12403,
+        "reviewCount": 1172
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/h/q/9/-original-imagzm8r8jzcumfa.jpeg?q=90"
+    },
+    {
+      "pid": "MOBGZJ42KHUZZKMN",
+      "brand": "OnePlus",
+      "title": "OnePlus Nord CE 3 Lite 5G (Chromatic Gray, 128 GB)",
+      "ram": 8,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 128 GB ROM",
+        "17.07 cm (6.72 inch) Display",
+        "108MP Rear Camera",
+        "5000 mAh Battery"
+      ],
+      "mrp": 19999,
+      "price": 16797,
+      "rating": {
+        "average": 4.4,
+        "count": 104164,
+        "reviewCount": 5508
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/p/r/b/nord-ce-3-lite-5g-ce2099-oneplus-original-imagzj42cctpjjze.jpeg?q=90"
+    },
+    {
+      "pid": "MOBGZJ45PS4AQ7BA",
+      "brand": "OnePlus",
+      "title": "OnePlus Nord CE 3 Lite 5G (Chromatic Gray, 256 GB)",
+      "ram": 8,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 256 GB ROM",
+        "17.07 cm (6.72 inch) Display",
+        "108MP Rear Camera",
+        "5000 mAh Battery"
+      ],
+      "mrp": 21999,
+      "price": 18170,
+      "rating": {
+        "average": 4.4,
+        "count": 104164,
+        "reviewCount": 5508
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/w/z/u/-original-imagtxvtmxpagdpn.jpeg?q=90"
+    },
+    {
+      "pid": "MOBGQFVG6MXANY2Q",
+      "brand": "Nokia",
+      "title": "Nokia 105 Single SIM, Keypad Mobile Phone with Wireless FM Radio",
+      "ram": 1,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "32 MB RAM | 32 MB ROM",
+        "4.5 cm (1.77 inch) Display",
+        "0MP | 0MP Front Camera",
+        "1000 mAh Battery",
+        "SC6531E Processor"
+      ],
+      "mrp": 1599,
+      "price": 1246,
+      "rating": {
+        "average": 4.1,
+        "count": 108117,
+        "reviewCount": 6702
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/a/1/d/105-single-sim-keypad-mobile-phone-with-wireless-fm-radio-ta-original-imah35z5ehkgszkm.jpeg?q=90"
+    },
+    {
+      "pid": "MOBGRZMYFH8MY6E2",
+      "brand": "SAMSUNG",
+      "title": "SAMSUNG Galaxy F34 5G (Mystic Green, 128 GB)",
+      "ram": 6,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+        "16.51 cm (6.5 inch) Full HD+ Display",
+        "50MP (OIS) + 8MP + 2MP | 13MP Front Camera",
+        "6000 mAh Battery",
+        "Exynos 1280 Processor"
+      ],
+      "mrp": 24499,
+      "price": 12999,
+      "rating": {
+        "average": 4.2,
+        "count": 42095,
+        "reviewCount": 3169
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/n/w/e/-original-imagtyw9fdfnsune.jpeg?q=90"
+    },
+    {
+      "pid": "MOBGVMQS98EEEKTZ",
+      "brand": "Nothing",
+      "title": "Nothing Phone (2a) 5G (White, 256 GB)",
+      "ram": 12,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "12 GB RAM | 256 GB ROM",
+        "17.02 cm (6.7 inch) Full HD+ Display",
+        "50MP (OIS) + 50MP | 32MP Front Camera",
+        "5000 mAh Battery",
+        "Dimensity 7200 Pro Processor"
+      ],
+      "mrp": 29999,
+      "price": 27999,
+      "rating": {
+        "average": 4.4,
+        "count": 6225,
+        "reviewCount": 622
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/q/y/m/-original-imagz7f9hzrahd2z.jpeg?q=90"
+    },
+    {
+      "pid": "MOBGTAGPNRQA7CS3",
+      "brand": "Apple",
+      "ram": "A",
+      "title": "Apple iPhone 15 Plus (Black, 128 GB)",
+
+      "stock": "IN_STOCK",
+      "highlights": [
+        "128 GB ROM",
+        "17.02 cm (6.7 inch) Super Retina XDR Display",
+        "48MP + 12MP | 12MP Front Camera",
+        "A16 Bionic Chip, 6 Core Processor Processor"
+      ],
+      "mrp": 89600,
+      "price": 74999,
+      "rating": {
+        "average": 4.6,
+        "count": 7780,
+        "reviewCount": 645
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/8/9/n/-original-imagtc6fyrstd4jm.jpeg?q=90"
+    },
+    {
+      "pid": "MOBHFRKRNXGJFHFP",
+      "brand": "realme",
+      "title": "realme C63 (Leather Blue, 128 GB)",
+      "ram": 4,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "4 GB RAM | 128 GB ROM | Expandable Upto 2 TB",
+        "17.13 cm (6.745 inch) HD+ Display",
+        "50MP Rear Camera | 8MP Front Camera",
+        "5000 mAh Battery",
+        "T612 Processor"
+      ],
+      "mrp": 10999,
+      "price": 8999,
+      "rating": {
+        "average": 4.4,
+        "count": 924,
+        "reviewCount": 39
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/7/s/h/-original-imah2pgrrhz2nufs.jpeg?q=90"
+    },
+    {
+      "pid": "MOBGRZMYJM3KFVE3",
+      "brand": "SAMSUNG",
+      "title": "SAMSUNG Galaxy F34 5G (Electric Black, 128 GB)",
+      "ram": 8,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+        "16.51 cm (6.5 inch) Full HD+ Display",
+        "50MP (OIS) + 8MP + 2MP | 13MP Front Camera",
+        "6000 mAh Battery",
+        "Exynos 1280 Processor"
+      ],
+      "mrp": 25999,
+      "price": 14999,
+      "rating": {
+        "average": 4.2,
+        "count": 10648,
+        "reviewCount": 810
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/v/r/8/-original-imagtywatxffk3yh.jpeg?q=90"
+    },
+    {
+      "pid": "MOBGVMQSVVE7CEAB",
+      "brand": "Nothing",
+      "title": "Nothing Phone (2a) 5G (Black, 256 GB)",
+      "ram": 8,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 256 GB ROM",
+        "17.02 cm (6.7 inch) Full HD+ Display",
+        "50MP (OIS) + 50MP | 32MP Front Camera",
+        "5000 mAh Battery",
+        "Dimensity 7200 Pro Processor"
+      ],
+      "mrp": 27999,
+      "price": 25999,
+      "rating": {
+        "average": 4.4,
+        "count": 40789,
+        "reviewCount": 4113
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/h/i/x/-original-imagyr3vfpqrpkbv.jpeg?q=90"
+    },
+    {
+      "pid": "MOBGUFK4P2H9CY7Y",
+      "brand": "MOTOROLA",
+      "title": "Motorola G34 5G (Ice Blue, 128 GB)",
+      "ram": 8,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 128 GB ROM",
+        "16.51 cm (6.5 inch) HD+ Display",
+        "50MP + 2MP | 16MP Front Camera",
+        "5000 mAh Battery",
+        "Snapdragon 695 5G Processor"
+      ],
+      "mrp": 14999,
+      "price": 11999,
+      "rating": {
+        "average": 4.2,
+        "count": 113485,
+        "reviewCount": 7828
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/c/k/9/g34-5g-pb1v0001in-motorola-original-imagwu4r4xze9jwz.jpeg?q=90"
+    },
+    {
+      "pid": "MOBGVMQSMHEGGBRW",
+      "brand": "Nothing",
+      "title": "Nothing Phone (2a) 5G (Black, 256 GB)",
+      "ram": 12,
+      "stock": "IN_STOCK",
+      "highlights": [
+        "12 GB RAM | 256 GB ROM",
+        "17.02 cm (6.7 inch) Full HD+ Display",
+        "50MP (OIS) + 50MP | 32MP Front Camera",
+        "5000 mAh Battery",
+        "Dimensity 7200 Pro Processor"
+      ],
+      "mrp": 29999,
+      "price": 27999,
+      "rating": {
+        "average": 4.4,
+        "count": 6225,
+        "reviewCount": 622
+      },
+      "images": "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/h/i/x/-original-imagyr3vfpqrpkbv.jpeg?q=90"
+    },
+    {
+      "pid": "MOBGZSU4HH7YZW6D",
+      "itemId": "ITMAE4447062B5B5",
+      "listingId": "LSTMOBGZSU4HH7YZW6D3I1RBM",
+      "brand": "realme",
+      "title": "realme P1 5G (Peacock Green, 128 GB)",
+      "ram": 8,
+      "url": "https://flipkart.com/realme-p1-5g-peacock-green-128-gb/p/itmae4447062b5b5?pid=MOBGZSU4HH7YZW6D",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 128 GB ROM | Expandable Upto 2 TB",
+        "16.94 cm (6.67 inch) Full HD+ Display",
+        "50MP + 2MP | 16MP Front Camera",
+        "5000 mAh Battery",
+        "Dimensity 7050 Processor"
+      ],
+      "isSponsored": false,
+      "mrp": 21999,
+      "price": 16999,
+      "rating": {
+        "average": 4.3,
+        "count": 11832,
+        "reviewCount": 664,
+        "breakup": [720, 258, 751, 2694, 7409]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/j/b/n/-original-imahyuhfzvybhaat.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/c/p/s/-original-imahyaaxv9hkqyrg.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/m/e/l/-original-imahyaaxwc7repvg.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/3/p/o/-original-imahyaaxuzzctjhs.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/u/4/u/-original-imahyfg6ruhxhw2h.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/a/y/r/-original-imahyaaxjf5stgh2.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/e/b/1/-original-imahyaaxhuzqwaes.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/p/d/z/-original-imahyaax2hxyftj6.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/o/m/g/-original-imahyaaxgvg6funb.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/d/b/p/-original-imahyaaxcyggzrrt.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/o/5/f/-original-imahyaaxva7uahuu.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/3/e/6/-original-imahyaax3y6bzxj8.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2020-08-05"
+    },
+    {
+      "pid": "MOBGYQ6BEHHQ9H7X",
+      "itemId": "ITMAE4447062B5B5",
+      "listingId": "LSTMOBGYQ6BEHHQ9H7XUGYV7T",
+      "brand": "realme",
+      "title": "realme P1 5G (Peacock Green, 128 GB)",
+      "ram": 6,
+      "url": "https://flipkart.com/realme-p1-5g-peacock-green-128-gb/p/itmae4447062b5b5?pid=MOBGYQ6BEHHQ9H7X",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "6 GB RAM | 128 GB ROM | Expandable Upto 2 TB",
+        "16.94 cm (6.67 inch) Full HD+ Display",
+        "50MP + 2MP | 16MP Front Camera",
+        "5000 mAh Battery",
+        "Dimensity 7050 Processor"
+      ],
+      "isSponsored": false,
+      "mrp": 20999,
+      "price": 15999,
+      "rating": {
+        "average": 4.3,
+        "count": 23286,
+        "reviewCount": 1465,
+        "breakup": [1208, 555, 1584, 5618, 14321]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/j/b/n/-original-imahyuhfzvybhaat.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/c/p/s/-original-imahyaaxv9hkqyrg.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/m/e/l/-original-imahyaaxwc7repvg.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/3/p/o/-original-imahyaaxuzzctjhs.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/u/4/u/-original-imahyfg6ruhxhw2h.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/a/y/r/-original-imahyaaxjf5stgh2.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/e/b/1/-original-imahyaaxhuzqwaes.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/p/d/z/-original-imahyaax2hxyftj6.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/o/m/g/-original-imahyaaxgvg6funb.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/d/b/p/-original-imahyaaxcyggzrrt.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/o/5/f/-original-imahyaaxva7uahuu.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/3/e/6/-original-imahyaax3y6bzxj8.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2022-06-20"
+    },
+    {
+      "pid": "MOBGVMQS9NC2DH2P",
+      "itemId": "ITM85C6BCA5EDADC",
+      "listingId": "LSTMOBGVMQS9NC2DH2PC9VIBX",
+      "brand": "Nothing",
+      "title": "Nothing Phone (2a) 5G (White, 256 GB)",
+      "ram": 8,
+      "url": "https://flipkart.com/nothing-phone-2a-5g-white-256-gb/p/itm85c6bca5edadc?pid=MOBGVMQS9NC2DH2P",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 256 GB ROM",
+        "17.02 cm (6.7 inch) Full HD+ Display",
+        "50MP (OIS) + 50MP | 32MP Front Camera",
+        "5000 mAh Battery",
+        "Dimensity 7200 Pro Processor"
+      ],
+      "isSponsored": false,
+      "mrp": 27999,
+      "price": 25999,
+      "rating": {
+        "average": 4.4,
+        "count": 40789,
+        "reviewCount": 4113,
+        "breakup": [2067, 858, 2103, 8923, 26838]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/q/y/m/-original-imagz7f9hzrahd2z.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/t/q/v/-original-imagz7f99kwfqcrd.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/1/d/q/-original-imagz7f9qrr58nt8.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/t/t/t/-original-imagz7f9yfdaavby.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/4/q/n/-original-imagz7f9fhqy79ef.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/b/t/t/-original-imagz7f9rfphn5kt.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/r/2/x/-original-imagz7f9hvvchsfs.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/f/x/q/-original-imagz7f9uz5ejz8p.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/n/r/m/-original-imagz7f9h8rkjyrq.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/m/h/6/-original-imagz7f9kweejfk3.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/a/b/l/-original-imagz7f9mjtnhswa.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/w/6/s/-original-imagz7f9x4syhvhc.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2020-03-27"
+    },
+    {
+      "pid": "MOBG6VF5AJGQ6HHE",
+      "itemId": "ITMFA27E6497B641",
+      "listingId": "LSTMOBG6VF5AJGQ6HHEIDDQMK",
+      "brand": "Apple",
+      "ram": "A",
+      "title": "Apple iPhone 13 (Midnight, 256 GB)",
+      "url": "https://flipkart.com/apple-iphone-13-midnight-256-gb/p/itmfa27e6497b641?pid=MOBG6VF5AJGQ6HHE",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "256 GB ROM",
+        "15.49 cm (6.1 inch) Super Retina XDR Display",
+        "12MP + 12MP | 12MP Front Camera",
+        "A15 Bionic Chip Processor"
+      ],
+      "isSponsored": false,
+      "mrp": 69600,
+      "price": 59999,
+      "rating": {
+        "average": 4.6,
+        "count": 283302,
+        "reviewCount": 13689,
+        "breakup": [10180, 3228, 7276, 34289, 228329]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/ktketu80/mobile/s/l/c/iphone-13-mlpf3hn-a-apple-original-imag6vzz5qvejz8z.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/ktketu80/mobile/f/o/s/iphone-13-mlpf3hn-a-apple-original-imag6vzzemfy9nse.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/ktketu80/mobile/a/b/f/iphone-13-mlpf3hn-a-apple-original-imag6vzzdn9cwhs5.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/h/e/g/-original-imagh7g8k7ttcdkc.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/w/k/h/-original-imagh2gwxu57j4fn.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/ktketu80/mobile/z/s/y/iphone-13-mlpf3hn-a-apple-original-imag6vzzrhzdyxfc.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/ktketu80/mobile/j/q/l/iphone-13-mlpf3hn-a-apple-original-imag6vzzfzfrrz4h.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/ktketu80/mobile/l/v/s/iphone-13-mlpf3hn-a-apple-original-imag6vzz3v2xmucb.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/ktketu80/mobile/t/r/6/iphone-13-mlpf3hn-a-apple-original-imag6vzz4ekzra9f.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2021-01-11"
+    },
+    {
+      "pid": "MOBGVMQSZWSCFFWT",
+      "itemId": "ITM85C6BCA5EDADC",
+      "listingId": "LSTMOBGVMQSZWSCFFWTLEUOV6",
+      "brand": "Nothing",
+      "title": "Nothing Phone (2a) 5G (Black, 128 GB)",
+      "ram": 8,
+      "url": "https://flipkart.com/nothing-phone-2a-5g-black-128-gb/p/itm85c6bca5edadc?pid=MOBGVMQSZWSCFFWT",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 128 GB ROM",
+        "17.02 cm (6.7 inch) Full HD+ Display",
+        "50MP (OIS) + 50MP | 32MP Front Camera",
+        "5000 mAh Battery",
+        "Dimensity 7200 Pro Processor"
+      ],
+      "isSponsored": false,
+      "mrp": 25999,
+      "price": 23999,
+      "rating": {
+        "average": 4.4,
+        "count": 40789,
+        "reviewCount": 4113,
+        "breakup": [2067, 858, 2103, 8923, 26838]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/h/i/x/-original-imagyr3vfpqrpkbv.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/x/d/m/-original-imagyr3vdzfhqdtc.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/c/i/v/-original-imagyr3v4fnbtecr.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/m/0/4/-original-imagyr3vp2jcynyb.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/v/j/2/-original-imagyr3vedfja8nj.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/d/z/u/-original-imagyr3veypxsfts.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/h/z/u/-original-imagyr3vhc2mzyuq.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/y/9/k/-original-imagyr3vrgzmazjv.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/b/1/2/-original-imagyr3vdpqxup5h.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/f/e/r/-original-imagyr3vgndqhqm7.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/q/w/w/-original-imagyr3v8tjnnbfa.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2023-03-05"
+    },
+    {
+      "pid": "MOBGVMQSFSU7EFDH",
+      "itemId": "ITM85C6BCA5EDADC",
+      "listingId": "LSTMOBGVMQSFSU7EFDHCYFGAH",
+      "brand": "Nothing",
+      "title": "Nothing Phone (2a) 5G (White, 128 GB)",
+      "ram": 8,
+      "url": "https://flipkart.com/nothing-phone-2a-5g-white-128-gb/p/itm85c6bca5edadc?pid=MOBGVMQSFSU7EFDH",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 128 GB ROM",
+        "17.02 cm (6.7 inch) Full HD+ Display",
+        "50MP (OIS) + 50MP | 32MP Front Camera",
+        "5000 mAh Battery",
+        "Dimensity 7200 Pro Processor"
+      ],
+      "isSponsored": false,
+      "mrp": 25999,
+      "price": 23999,
+      "rating": {
+        "average": 4.4,
+        "count": 40789,
+        "reviewCount": 4113,
+        "breakup": [2067, 858, 2103, 8923, 26838]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/q/y/m/-original-imagz7f9hzrahd2z.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/t/q/v/-original-imagz7f99kwfqcrd.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/1/d/q/-original-imagz7f9qrr58nt8.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/t/t/t/-original-imagz7f9yfdaavby.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/4/q/n/-original-imagz7f9fhqy79ef.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/b/t/t/-original-imagz7f9rfphn5kt.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/r/2/x/-original-imagz7f9hvvchsfs.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/f/x/q/-original-imagz7f9uz5ejz8p.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/n/r/m/-original-imagz7f9h8rkjyrq.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/m/h/6/-original-imagz7f9kweejfk3.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/a/b/l/-original-imagz7f9mjtnhswa.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/w/6/s/-original-imagz7f9x4syhvhc.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2020-01-27"
+    },
+    {
+      "pid": "MOBGS7JGZBZKPGGB",
+      "itemId": "ITM6485286F96FB0",
+      "listingId": "LSTMOBGS7JGZBZKPGGBG2917R",
+      "brand": "REDMI",
+      "title": "REDMI 12 5G (Moonstone Silver, 128 GB)",
+      "ram": 6,
+      "url": "https://flipkart.com/redmi-12-5g-moonstone-silver-128-gb/p/itm6485286f96fb0?pid=MOBGS7JGZBZKPGGB",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+        "17.25 cm (6.79 inch) Full HD+ Display",
+        "50MP + 2MP | 8MP Front Camera",
+        "5000 mAh Battery",
+        "Snapdragon 4 Gen 2 Processor"
+      ],
+      "isSponsored": false,
+      "mrp": 17999,
+      "price": 12499,
+      "rating": {
+        "average": 4.2,
+        "count": 45975,
+        "reviewCount": 2112,
+        "breakup": [3252, 1518, 3785, 10269, 27151]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/u/v/h/-original-imagxaqtzmqgtfen.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/k/k/3/-original-imagxaqtqkpakgpm.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/o/u/e/-original-imagxaqtxttjcv8w.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/e/n/b/-original-imagxaqtzgsjhmwq.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/x/u/4/-original-imagxaqtn84q2zwh.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/3/r/x/-original-imagxaqtc7yha8hs.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/s/v/9/-original-imagxaqtynkn4wxg.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/z/0/g/-original-imagxaqtxhrbnqp5.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/v/r/w/-original-imagxaqthknvgzp8.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/5/n/8/-original-imagxaqtzgv8bhfd.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/n/k/p/-original-imagxaqtd6ahajpx.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/g/n/0/-original-imagxaqtzjfcmmvn.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/m/j/a/-original-imagxaqtv9vxmugy.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/5/v/q/-original-imagxaqtfv6snhay.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2023-06-11"
+    },
+    {
+      "pid": "MOBGYQ6BMZHJBQSN",
+      "itemId": "ITMAE4447062B5B5",
+      "listingId": "LSTMOBGYQ6BMZHJBQSNQ5LHLN",
+      "brand": "realme",
+      "title": "realme P1 5G (Peacock Green, 256 GB)",
+      "ram": 8,
+      "url": "https://flipkart.com/realme-p1-5g-peacock-green-256-gb/p/itmae4447062b5b5?pid=MOBGYQ6BMZHJBQSN",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 256 GB ROM | Expandable Upto 2 TB",
+        "16.94 cm (6.67 inch) Full HD+ Display",
+        "50MP + 2MP | 16MP Front Camera",
+        "5000 mAh Battery",
+        "Dimensity 7050 Processor"
+      ],
+      "isSponsored": false,
+      "mrp": 22999,
+      "price": 18999,
+      "rating": {
+        "average": 4.3,
+        "count": 11832,
+        "reviewCount": 664,
+        "breakup": [720, 258, 751, 2694, 7409]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/j/b/n/-original-imahyuhfzvybhaat.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/c/p/s/-original-imahyaaxv9hkqyrg.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/m/e/l/-original-imahyaaxwc7repvg.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/3/p/o/-original-imahyaaxuzzctjhs.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/u/4/u/-original-imahyfg6ruhxhw2h.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/a/y/r/-original-imahyaaxjf5stgh2.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/e/b/1/-original-imahyaaxhuzqwaes.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/p/d/z/-original-imahyaax2hxyftj6.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/o/m/g/-original-imahyaaxgvg6funb.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/d/b/p/-original-imahyaaxcyggzrrt.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/o/5/f/-original-imahyaaxva7uahuu.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/3/e/6/-original-imahyaax3y6bzxj8.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2021-04-07"
+    },
+    {
+      "pid": "MOBGMFFXPNSHBGRC",
+      "itemId": "ITM347E695FEFFE7",
+      "listingId": "LSTMOBGMFFXPNSHBGRCPG5BZP",
+      "brand": "SAMSUNG",
+      "title": "SAMSUNG Galaxy S23 5G (Phantom Black, 256 GB)",
+      "ram": 8,
+      "url": "https://flipkart.com/samsung-galaxy-s23-5g-phantom-black-256-gb/p/itm347e695feffe7?pid=MOBGMFFXPNSHBGRC",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 256 GB ROM",
+        "15.49 cm (6.1 inch) Full HD+ Display",
+        "50MP + 10MP + 12MP | 12MP Front Camera",
+        "3900 mAh Lithium Ion Battery",
+        "Qualcomm Snapdragon 8 Gen 2 Processor"
+      ],
+      "isSponsored": false,
+      "mrp": 95999,
+      "price": 49999,
+      "rating": {
+        "average": 4.5,
+        "count": 12403,
+        "reviewCount": 1172,
+        "breakup": [617, 157, 356, 2018, 9255]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/u/i/d/-original-imagzm8qbwwyyvhf.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/8/3/x/-original-imagzm8pagefz9z4.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/m/5/s/-original-imahyz9gbfufyy7w.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/j/c/3/-original-imahypxwmhtggw6d.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/n/n/r/-original-imahyz9gp26vvug6.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/z/q/q/-original-imahyz9gvfxa3bbw.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/i/h/t/-original-imahyz9gqkkf2jgg.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/p/t/c/-original-imahyz9gfancsfuy.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2022-07-17"
+    },
+    {
+      "pid": "MOBGYQ6BVK8HYMAG",
+      "itemId": "ITMAA3401E5370B5",
+      "listingId": "LSTMOBGYQ6BVK8HYMAGXL2LRY",
+      "brand": "realme",
+      "title": "realme 12x 5G (Twilight Purple, 128 GB)",
+      "ram": 8,
+      "url": "https://flipkart.com/realme-12x-5g-twilight-purple-128-gb/p/itmaa3401e5370b5?pid=MOBGYQ6BVK8HYMAG",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 128 GB ROM | Expandable Upto 2 TB",
+        "17.07 cm (6.72 inch) Full HD+ Display",
+        "50MP + 2MP | 8MP Front Camera",
+        "5000 mAh Battery",
+        "Dimensity 6100+ Processor"
+      ],
+      "isSponsored": false,
+      "mrp": 18999,
+      "price": 14999,
+      "rating": {
+        "average": 4.4,
+        "count": 5244,
+        "reviewCount": 233,
+        "breakup": [298, 119, 351, 1148, 3328]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/w/c/3/-original-imah3chxfqnezjjb.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/t/t/4/-original-imagzk4majyvsnzp.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/w/o/5/-original-imagzk4maggrh8qa.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/j/c/6/-original-imagzk4m85uc7yvw.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/q/7/2/-original-imagzk4mbuee4rek.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/9/1/t/-original-imagzk4mmcfkvh8k.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/l/h/l/-original-imahykuwezxmuesv.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/a/y/r/-original-imagzk4mnctxwzkm.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/x/f/a/-original-imagzk4mzhw93fzb.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/f/y/q/-original-imagzk4mpujrvjef.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/f/k/l/-original-imagzk4m3aazmg63.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2022-12-01"
+    },
+    {
+      "pid": "MOBGMFFX5XYE8MZN",
+      "itemId": "ITMC77FF94CDF044",
+      "listingId": "LSTMOBGMFFX5XYE8MZNRGKCA5",
+      "brand": "SAMSUNG",
+      "title": "SAMSUNG Galaxy S23 5G (Cream, 128 GB)",
+      "ram": 8,
+      "url": "https://flipkart.com/samsung-galaxy-s23-5g-cream-128-gb/p/itmc77ff94cdf044?pid=MOBGMFFX5XYE8MZN",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 128 GB ROM",
+        "15.49 cm (6.1 inch) Full HD+ Display",
+        "50MP + 10MP + 12MP | 12MP Front Camera",
+        "3900 mAh Lithium Ion Battery",
+        "Qualcomm Snapdragon 8 Gen 2 Processor"
+      ],
+      "isSponsored": false,
+      "mrp": 89999,
+      "price": 44999,
+      "rating": {
+        "average": 4.5,
+        "count": 12403,
+        "reviewCount": 1172,
+        "breakup": [617, 157, 356, 2018, 9255]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/x/7/n/-original-imagzm8qzhpuwrak.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/8/3/x/-original-imagzm8pagefz9z4.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/m/5/s/-original-imahyz9gbfufyy7w.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/j/c/3/-original-imahypxwmhtggw6d.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/n/n/r/-original-imahyz9gp26vvug6.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/z/q/q/-original-imahyz9gvfxa3bbw.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/i/h/t/-original-imahyz9gqkkf2jgg.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/p/t/c/-original-imahyz9gfancsfuy.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2022-03-02"
+    },
+    {
+      "pid": "MOBH2Q4PN6FWZCGV",
+      "itemId": "ITMA30CB38861D4C",
+      "listingId": "LSTMOBH2Q4PN6FWZCGVPMAT2I",
+      "brand": "OPPO",
+      "title": "OPPO K12x 5G with 45W SUPERVOOC Charger In-The-Box (Breeze Blue, 128 GB)",
+      "ram": 6,
+      "url": "https://flipkart.com/oppo-k12x-5g-45w-supervooc-charger-in-the-box-breeze-blue-128-gb/p/itma30cb38861d4c?pid=MOBH2Q4PN6FWZCGV",
+      "badge": "Bestseller",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+        "16.94 cm (6.67 inch) HD Display",
+        "32MP + 2MP | 8MP Front Camera",
+        "5100 mAh Battery",
+        "Dimensity 6300 Processor"
+      ],
+      "isSponsored": false,
+      "mrp": 16999,
+      "price": 12999,
+      "rating": {
+        "average": 4.6,
+        "count": 3840,
+        "reviewCount": 59,
+        "breakup": [134, 76, 154, 479, 2997]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/m/e/3/-original-imah37gwn2xbvzhy.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/y/j/u/-original-imah3cgfcpdfaehu.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/x/x/f/-original-imah37gwngsvvgfv.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/s/1/8/-original-imah37gwgfuvqw3c.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/y/a/1/-original-imah37gwv73jxcjz.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/m/3/s/-original-imah37gwaxgpxtgf.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/b/5/7/-original-imah37gwzvfy4pct.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/b/t/w/-original-imah37gwzzzcsmdf.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/c/9/d/-original-imah37gwbztvpyrq.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/4/z/v/-original-imah37bfvpaphv3h.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/e/j/u/-original-imah3bzuurzdr78b.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/3/n/z/-original-imah37bfzbqbrskf.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/q/d/b/-original-imah37bfyq8zqdzf.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/4/g/v/-original-imah37bfg7f2kpax.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/w/s/o/-original-imah37bftcvmejku.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/7/5/d/-original-imah37bfazwgbzzg.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2023-12-05"
+    },
+    {
+      "pid": "MOBGYQ6BETBWFTDH",
+      "itemId": "ITMAA3401E5370B5",
+      "listingId": "LSTMOBGYQ6BETBWFTDHJLSPJZ",
+      "brand": "realme",
+      "title": "realme 12x 5G (Woodland Green, 128 GB)",
+      "ram": 6,
+      "url": "https://flipkart.com/realme-12x-5g-woodland-green-128-gb/p/itmaa3401e5370b5?pid=MOBGYQ6BETBWFTDH",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "6 GB RAM | 128 GB ROM | Expandable Upto 2 TB",
+        "17.07 cm (6.72 inch) Full HD+ Display",
+        "50MP + 2MP | 8MP Front Camera",
+        "5000 mAh Battery",
+        "Dimensity 6100+ Processor"
+      ],
+      "isSponsored": false,
+      "mrp": 17999,
+      "price": 12999,
+      "rating": {
+        "average": 4.4,
+        "count": 40323,
+        "reviewCount": 1859,
+        "breakup": [1951, 984, 2687, 8486, 26215]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/6/t/4/-original-imah3chxfkqxyzm3.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/f/b/j/12x-5g-rmx3998-realme-original-imagzjx7zhbtshv5.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/y/b/a/12x-5g-rmx3998-realme-original-imagzjx7zhctdeag.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/b/f/2/12x-5g-rmx3998-realme-original-imagzjx7zs27bkuh.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/y/t/d/12x-5g-rmx3998-realme-original-imagzjx7hz7yqy8s.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/6/t/e/12x-5g-rmx3998-realme-original-imagzjx7wdk9jz8d.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/d/d/i/-original-imahykuwxhzetc8h.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/0/4/w/12x-5g-rmx3998-realme-original-imagzjx7gbww4jfw.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/q/j/t/12x-5g-rmx3998-realme-original-imagzjx7pphzmszs.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/9/q/x/12x-5g-rmx3998-realme-original-imagzjx7enyzycaz.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/v/4/s/12x-5g-rmx3998-realme-original-imagzjx7yzvrddgh.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2021-10-15"
+    },
+    {
+      "pid": "MOBGYQ6BXH69VAJY",
+      "itemId": "ITMDB8902B0C9344",
+      "listingId": "LSTMOBGYQ6BXH69VAJYONWWHC",
+      "brand": "POCO",
+      "title": "POCO C61 (Ethereal Blue, 64 GB)",
+      "ram": 4,
+      "url": "https://flipkart.com/poco-c61-ethereal-blue-64-gb/p/itmdb8902b0c9344?pid=MOBGYQ6BXH69VAJY",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "4 GB RAM | 64 GB ROM | Expandable Upto 1 TB",
+        "17.04 cm (6.71 inch) HD+ Display",
+        "8MP Rear Camera | 5MP Front Camera",
+        "5000 mAh Battery",
+        "Helio G36 Processor"
+      ],
+      "isSponsored": false,
+      "mrp": 8999,
+      "price": 6299,
+      "rating": {
+        "average": 4.2,
+        "count": 13855,
+        "reviewCount": 427,
+        "breakup": [1116, 560, 1203, 2523, 8453]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/v/f/l/-original-imagzcfj9vhf5dyq.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/k/w/s/-original-imagzcfjgxh3zwd2.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/l/f/3/-original-imagzcfjutrekfzv.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/7/r/1/-original-imagzcfjgjjqfgqb.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/y/p/z/-original-imagzcfj3faayhbg.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/y/9/d/-original-imagzcfjfeqyxabp.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/a/u/n/-original-imagzcfjrkhbnmtg.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2023-03-16"
+    },
+    {
+      "pid": "MOBGZJ3ZFQ8AKKRS",
+      "itemId": "ITM2CD5A4E659035",
+      "listingId": "LSTMOBGZJ3ZFQ8AKKRS488YYT",
+      "brand": "OnePlus",
+      "title": "OnePlus Nord CE 3 Lite 5G (Pastel Lime, 256 GB)",
+      "ram": 8,
+      "url": "https://flipkart.com/oneplus-nord-ce-3-lite-5g-pastel-lime-256-gb/p/itm2cd5a4e659035?pid=MOBGZJ3ZFQ8AKKRS",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 256 GB ROM",
+        "17.07 cm (6.72 inch) Display",
+        "108MP Rear Camera",
+        "5000 mAh Battery"
+      ],
+      "isSponsored": false,
+      "mrp": 21999,
+      "price": 18227,
+      "rating": {
+        "average": 4.4,
+        "count": 104164,
+        "reviewCount": 5508,
+        "breakup": [5529, 2656, 6518, 21622, 67839]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/a/o/z/nord-ce-3-lite-5g-ce2099-oneplus-original-imagzj3wqxzgquah.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/f/f/b/nord-ce-3-lite-5g-ce2099-oneplus-original-imagzj3wj2wvzsmg.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/o/j/9/-original-imagtxvugchxwxdg.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2023-01-08"
+    },
+    {
+      "pid": "MOBGTAGPNEZZY2YR",
+      "itemId": "ITM986F66C53CAE4",
+      "listingId": "LSTMOBGTAGPNEZZY2YRE1FCIG",
+      "brand": "Apple",
+      "ram": "A",
+      "title": "Apple iPhone 15 (Blue, 256 GB)",
+      "url": "https://flipkart.com/apple-iphone-15-blue-256-gb/p/itm986f66c53cae4?pid=MOBGTAGPNEZZY2YR",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "256 GB ROM",
+        "15.49 cm (6.1 inch) Super Retina XDR Display",
+        "48MP + 12MP | 12MP Front Camera",
+        "A16 Bionic Chip, 6 Core Processor Processor"
+      ],
+      "isSponsored": false,
+      "mrp": 89600,
+      "price": 75499,
+      "rating": {
+        "average": 4.6,
+        "count": 45313,
+        "reviewCount": 2430,
+        "breakup": [2075, 636, 1354, 5839, 35409]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/k/l/l/-original-imagtc5fz9spysyk.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/2/7/h/-original-imagtc5fyznz42bx.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/u/m/3/-original-imagtc5ffhbausfy.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/a/v/k/-original-imagtc5fx9jzazdy.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/i/h/z/-original-imagtc5fbxefnjtj.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/r/s/1/-original-imagtc5fxxhhgtrz.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2020-05-07"
+    },
+    {
+      "pid": "MOBGWV9ERZ8YACPA",
+      "itemId": "ITM77877EAB8617D",
+      "listingId": "LSTMOBGWV9ERZ8YACPA7PIG0S",
+      "brand": "REDMI",
+      "title": "REDMI 13C (Starfrost White, 128 GB)",
+      "ram": 6,
+      "url": "https://flipkart.com/redmi-13c-starfrost-white-128-gb/p/itm77877eab8617d?pid=MOBGWV9ERZ8YACPA",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+        "17.12 cm (6.74 inch) HD+ Display",
+        "50MP Rear Camera | 8MP Front Camera",
+        "5000 mAh Battery",
+        "Helio G85 Processor"
+      ],
+      "isSponsored": false,
+      "mrp": 13999,
+      "price": 8499,
+      "rating": {
+        "average": 4.2,
+        "count": 11091,
+        "reviewCount": 458,
+        "breakup": [741, 399, 919, 2445, 6587]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/t/f/a/-original-imahfk4xp4xcggyt.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/d/j/f/-original-imahfk4xwhtg5enz.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/o/h/t/-original-imagxg47qst6zh79.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/2/a/o/-original-imahfk4xzyctwvq7.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/s/f/s/-original-imahfk4xuzvgzgak.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/x/1/h/-original-imahfk4xbkgpvf7e.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/u/e/k/-original-imahfk4xgbdsfhqg.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/4/l/k/-original-imahfk4xnkwy4uhg.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/l/b/d/-original-imahfk4xge5uhqwt.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/7/a/t/-original-imahfk4x7czqnh5p.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/m/1/v/-original-imahfk4xxxctxqzk.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/m/b/m/-original-imahfk4xsygkuhsg.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/r/f/a/-original-imahfk4xz7tyeufk.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/0/t/v/-original-imagxg47djcqvfnd.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/t/r/q/-original-imagxg47fehy3f5p.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/w/d/p/-original-imahfk4xnqzetbmb.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/e/v/n/-original-imagxg478tzqweuq.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/g/o/s/-original-imagxg47cuegpssj.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/0/y/j/-original-imagxg47ynumh9hq.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2021-10-23"
+    },
+    {
+      "pid": "MOBGQFVGYU2F5CYT",
+      "itemId": "ITM1B5465D126EB5",
+      "listingId": "LSTMOBGQFVGYU2F5CYTVJXGPL",
+      "brand": "Nokia",
+      "title": "Nokia 105 Single SIM, Keypad Mobile Phone with Wireless FM Radio",
+      "ram": 1,
+      "url": "https://flipkart.com/nokia-105-single-sim-keypad-mobile-phone-wireless-fm-radio/p/itm1b5465d126eb5?pid=MOBGQFVGYU2F5CYT",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "32 MB RAM | 32 MB ROM",
+        "4.5 cm (1.77 inch) Display",
+        "0MP | 0MP Front Camera",
+        "1000 mAh Battery",
+        "SC6531E Processor"
+      ],
+      "isSponsored": false,
+      "mrp": 1599,
+      "price": 1243,
+      "rating": {
+        "average": 4.1,
+        "count": 108117,
+        "reviewCount": 6702,
+        "breakup": [10970, 4650, 9985, 23388, 59124]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/g/d/u/105-single-sim-keypad-mobile-phone-with-wireless-fm-radio-ta-original-imah383yg2hq8avw.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/4/q/k/105-single-sim-keypad-mobile-phone-with-wireless-fm-radio-ta-original-imah383yyw2bcecr.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/x/2/9/105-single-sim-keypad-mobile-phone-with-wireless-fm-radio-ta-original-imah383y5tv3jcwu.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/y/2/1/105-single-sim-keypad-mobile-phone-with-wireless-fm-radio-ta-original-imah383yhh8fyu9m.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/1/u/i/105-single-sim-keypad-mobile-phone-with-wireless-fm-radio-ta-original-imah383y2dfeszfv.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2020-04-06"
+    },
+    {
+      "pid": "MOBGYHSDBXEZDV3Z",
+      "itemId": "ITMB21D22A9A4A16",
+      "listingId": "LSTMOBGYHSDBXEZDV3ZNUHUZ2",
+      "brand": "POCO",
+      "title": "POCO M6 5G - Locked with Airtel Prepaid (Orion Blue, 128 GB)",
+      "ram": 4,
+      "url": "https://flipkart.com/poco-m6-5g-locked-airtel-prepaid-orion-blue-128-gb/p/itmb21d22a9a4a16?pid=MOBGYHSDBXEZDV3Z",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+        "17.12 cm (6.74 inch) HD+ Display",
+        "50MP Rear Camera | 5MP Front Camera",
+        "5000 mAh Battery",
+        "Mediatek Dimensity 6100+ Processor"
+      ],
+      "isSponsored": false,
+      "mrp": 12999,
+      "price": 8249,
+      "rating": {
+        "average": 4.1,
+        "count": 36886,
+        "reviewCount": 2023,
+        "breakup": [3613, 1541, 3312, 7396, 21024]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/d/i/7/-original-imagys8jfmstgyug.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/w/v/7/-original-imagys8jxxjedkec.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/r/f/h/-original-imagys8jqhdddz6k.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/j/o/m/-original-imagys8jggquymfa.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/q/0/i/-original-imagys8jdkzj5evv.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/u/c/o/-original-imagys8jsakeztqp.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/e/e/f/-original-imagys8jxzfyssw2.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2023-12-30"
+    },
+    {
+      "pid": "MOBGTAGPGF8HJGS7",
+      "itemId": "ITMC24DB2484DEE9",
+      "listingId": "LSTMOBGTAGPGF8HJGS7FKUSRQ",
+      "brand": "Apple",
+      "ram": "A",
+      "title": "Apple iPhone 15 (Green, 256 GB)",
+      "url": "https://flipkart.com/apple-iphone-15-green-256-gb/p/itmc24db2484dee9?pid=MOBGTAGPGF8HJGS7",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "256 GB ROM",
+        "15.49 cm (6.1 inch) Super Retina XDR Display",
+        "48MP + 12MP | 12MP Front Camera",
+        "A16 Bionic Chip, 6 Core Processor Processor"
+      ],
+      "isSponsored": false,
+      "mrp": 89600,
+      "price": 75499,
+      "rating": {
+        "average": 4.6,
+        "count": 45313,
+        "reviewCount": 2430,
+        "breakup": [2075, 636, 1354, 5839, 35409]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/j/z/3/-original-imagtc5fqyz8tu4c.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/j/i/w/-original-imagtc5fkceaymbw.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/u/m/3/-original-imagtc5ffhbausfy.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/a/v/k/-original-imagtc5fx9jzazdy.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/i/h/z/-original-imagtc5fbxefnjtj.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/x/g/5/-original-imagtc5fhqj8pxa7.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2020-03-01"
+    },
+    {
+      "pid": "MOBGRZMYHHCWCAXG",
+      "itemId": "ITM2CE3011602D7B",
+      "listingId": "LSTMOBGRZMYHHCWCAXGZPMGCO",
+      "brand": "SAMSUNG",
+      "title": "SAMSUNG Galaxy F34 5G (Mystic Green, 128 GB)",
+      "ram": 8,
+      "url": "https://flipkart.com/samsung-galaxy-f34-5g-mystic-green-128-gb/p/itm2ce3011602d7b?pid=MOBGRZMYHHCWCAXG",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+        "16.51 cm (6.5 inch) Full HD+ Display",
+        "50MP (OIS) + 8MP + 2MP | 13MP Front Camera",
+        "6000 mAh Battery",
+        "Exynos 1280 Processor"
+      ],
+      "isSponsored": false,
+      "mrp": 25999,
+      "price": 14999,
+      "rating": {
+        "average": 4.2,
+        "count": 10648,
+        "reviewCount": 810,
+        "breakup": [870, 302, 805, 2484, 6187]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/n/w/e/-original-imagtyw9fdfnsune.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/g/r/r/-original-imagtyw9krny3n2f.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/n/z/u/-original-imagtyw9hkkmz72d.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/s/z/t/-original-imagtyw9vjrnzhgg.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/s/y/d/-original-imagtyw9mrvrkqjr.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/h/j/b/-original-imagtyw9rntgytxt.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/k/f/m/-original-imagtyw9ymsnrwwz.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/l/i/d/-original-imagtyw95dy2zgjg.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/d/e/y/-original-imagtyw9yhcrhzvk.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/l/h/r/-original-imagtyw9kyhgbsyg.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2020-03-23"
+    },
+    {
+      "pid": "MOBHY8KMR8FZBUZE",
+      "itemId": "ITM85C6BCA5EDADC",
+      "listingId": "LSTMOBHY8KMR8FZBUZEYOP2WH",
+      "brand": "Nothing",
+      "title": "Nothing Phone (2a) 5G (Blue, 256 GB)",
+      "ram": 12,
+      "url": "https://flipkart.com/nothing-phone-2a-5g-blue-256-gb/p/itm85c6bca5edadc?pid=MOBHY8KMR8FZBUZE",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "12 GB RAM | 256 GB ROM",
+        "17.02 cm (6.7 inch) Full HD+ Display",
+        "50MP (OIS) + 50MP | 32MP Front Camera",
+        "5000 mAh Battery",
+        "Dimensity 7200 Pro Processor"
+      ],
+      "isSponsored": false,
+      "mrp": 29999,
+      "price": 27999,
+      "rating": {
+        "average": 4.4,
+        "count": 6225,
+        "reviewCount": 622,
+        "breakup": [367, 122, 311, 1237, 4188]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/z/g/z/-original-imahfptqbnyebxjg.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/c/g/a/-original-imahfptqg23vghss.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/r/p/o/-original-imahfptqyg4fzerg.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/c/a/l/-original-imahfptqhuxdynky.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/h/d/j/-original-imahfptqvfgv99gt.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/v/q/f/-original-imahfptqkwtzgdkj.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/y/k/6/-original-imahfptq22w5yz6b.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/y/t/i/-original-imahfptqtvw6fpqw.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/a/v/i/-original-imahfptqdmzq6rhx.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/5/t/l/-original-imahfptqdemzgpnn.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/a/6/m/-original-imahfptquencngyq.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2021-09-20"
+    },
+    {
+      "pid": "MOBGZSU4BBYYMSEV",
+      "itemId": "ITMAE4447062B5B5",
+      "listingId": "LSTMOBGZSU4BBYYMSEVEEHYG2",
+      "brand": "realme",
+      "title": "realme P1 5G (Phoenix Red, 128 GB)",
+      "ram": 8,
+      "url": "https://flipkart.com/realme-p1-5g-phoenix-red-128-gb/p/itmae4447062b5b5?pid=MOBGZSU4BBYYMSEV",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 128 GB ROM | Expandable Upto 2 TB",
+        "16.94 cm (6.67 inch) Full HD+ Display",
+        "50MP + 2MP | 16MP Front Camera",
+        "5000 mAh Battery",
+        "Dimensity 7050 Processor"
+      ],
+      "isSponsored": false,
+      "mrp": 21999,
+      "price": 16999,
+      "rating": {
+        "average": 4.3,
+        "count": 11832,
+        "reviewCount": 664,
+        "breakup": [720, 258, 751, 2694, 7409]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/y/9/0/-original-imahyuhfg2z4fvyh.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/m/8/8/-original-imahyaaxchmmsgeg.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/4/u/o/-original-imahyaaxfuyegr4w.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/r/y/t/-original-imahyaax6ekyghpc.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/s/i/z/-original-imahyfg6yctnwh2f.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/l/x/d/-original-imahyaaxnqyph7ag.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/2/i/i/-original-imahyaaxze8fpnnr.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/b/h/c/-original-imahyaaxruvbgy8z.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/6/k/k/-original-imahyaaxeezkzvsd.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/t/z/4/-original-imahyaaxytqbnzfh.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/r/0/t/-original-imahyaax72cqsahz.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/p/s/a/-original-imahyaaxfqk6u7xz.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2020-03-15"
+    },
+    {
+      "pid": "MOBGVVTXAFHYHDZS",
+      "itemId": "ITM8EA3D87AA6C0C",
+      "listingId": "LSTMOBGVVTXAFHYHDZSK9U3D1",
+      "brand": "POCO",
+      "title": "POCO C65 (Matte Black, 128 GB)",
+      "ram": 4,
+      "url": "https://flipkart.com/poco-c65-matte-black-128-gb/p/itm8ea3d87aa6c0c?pid=MOBGVVTXAFHYHDZS",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "4 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+        "17.12 cm (6.74 inch) HD+ Display",
+        "50MP + AI Lens + 2MP | 8MP Front Camera",
+        "5000 mAh Battery",
+        "Helio G85 Processor"
+      ],
+      "isSponsored": false,
+      "mrp": 10999,
+      "price": 6799,
+      "rating": {
+        "average": 4.3,
+        "count": 41252,
+        "reviewCount": 2173,
+        "breakup": [2425, 1312, 3738, 9460, 24317]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/i/k/k/c65-mzb0g8rin-poco-original-imagw6gyhhu7hur5.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/s/i/2/c65-mzb0g8rin-poco-original-imagw6gy37sjyuvf.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/m/u/a/c65-mzb0g8rin-poco-original-imagw6gyzcqk3vvw.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/x/n/f/-original-imagw7qehcnvujbh.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/5/t/u/c65-mzb0g8rin-poco-original-imagw6gyzved3548.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/f/o/j/c65-mzb0g8rin-poco-original-imagw6gysyfnwfnp.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/w/9/r/c65-mzb0g8rin-poco-original-imagw6gy9s9qe4y7.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/u/z/9/c65-mzb0g8rin-poco-original-imagw6gy7p5qhjgw.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/c/3/z/c65-mzb0g8rin-poco-original-imagw6gyxnkvzgbu.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/j/9/f/c65-mzb0g8rin-poco-original-imagw6gyefrp6khe.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/f/p/x/c65-mzb0g8rin-poco-original-imagw6gybs4pfg4r.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/p/o/g/c65-mzb0g8rin-poco-original-imagw6gyyhqg32xh.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/k/a/r/c65-mzb0g8rin-poco-original-imagw6gypmgqrgjg.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/h/t/j/c65-mzb0g8rin-poco-original-imagw6gyds93mycn.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2020-12-15"
+    },
+    {
+      "pid": "MOBH223HFVHYH3QW",
+      "itemId": "ITM9CD89D063A553",
+      "listingId": "LSTMOBH223HFVHYH3QWMSRB8E",
+      "brand": "realme",
+      "title": "realme Narzo N63 4G (Twilight Purple, 64 GB)",
+      "ram": 4,
+      "url": "https://flipkart.com/realme-narzo-n63-4g-twilight-purple-64-gb/p/itm9cd89d063a553?pid=MOBH223HFVHYH3QW",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "4 GB RAM | 64 GB ROM",
+        "17.12 cm (6.74 inch) Display",
+        "50MP Rear Camera",
+        "5000 mAh Battery"
+      ],
+      "isSponsored": false,
+      "mrp": 9999,
+      "price": 8449,
+      "rating": {
+        "average": 4,
+        "count": 750,
+        "reviewCount": 14,
+        "breakup": [114, 34, 56, 97, 449]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/h/7/o/narzo-n63-5g-rmx3939-realme-original-imah2fzypfukwg2z.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/o/d/r/narzo-n63-5g-rmx3939-realme-original-imah2fzyzqdhg6rz.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2021-04-27"
+    },
+    {
+      "pid": "MOBGYQ6BXSENZRV3",
+      "itemId": "ITMAE4447062B5B5",
+      "listingId": "LSTMOBGYQ6BXSENZRV35OQT6P",
+      "brand": "realme",
+      "title": "realme P1 5G (Phoenix Red, 128 GB)",
+      "ram": 6,
+      "url": "https://flipkart.com/realme-p1-5g-phoenix-red-128-gb/p/itmae4447062b5b5?pid=MOBGYQ6BXSENZRV3",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "6 GB RAM | 128 GB ROM | Expandable Upto 2 TB",
+        "16.94 cm (6.67 inch) Full HD+ Display",
+        "50MP + 2MP | 16MP Front Camera",
+        "5000 mAh Battery",
+        "Dimensity 7050 Processor"
+      ],
+      "isSponsored": false,
+      "mrp": 20999,
+      "price": 15999,
+      "rating": {
+        "average": 4.3,
+        "count": 23286,
+        "reviewCount": 1465,
+        "breakup": [1208, 555, 1584, 5618, 14321]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/y/9/0/-original-imahyuhfg2z4fvyh.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/m/8/8/-original-imahyaaxchmmsgeg.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/4/u/o/-original-imahyaaxfuyegr4w.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/r/y/t/-original-imahyaax6ekyghpc.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/s/i/z/-original-imahyfg6yctnwh2f.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/l/x/d/-original-imahyaaxnqyph7ag.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/2/i/i/-original-imahyaaxze8fpnnr.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/b/h/c/-original-imahyaaxruvbgy8z.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/6/k/k/-original-imahyaaxeezkzvsd.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/t/z/4/-original-imahyaaxytqbnzfh.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/r/0/t/-original-imahyaax72cqsahz.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/p/s/a/-original-imahyaaxfqk6u7xz.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2020-10-23"
+    },
+    {
+      "pid": "MOBGYQ6BTTCWZYYD",
+      "itemId": "ITMAE4447062B5B5",
+      "listingId": "LSTMOBGYQ6BTTCWZYYD9LV1JO",
+      "brand": "realme",
+      "title": "realme P1 5G (Phoenix Red, 256 GB)",
+      "ram": 8,
+      "url": "https://flipkart.com/realme-p1-5g-phoenix-red-256-gb/p/itmae4447062b5b5?pid=MOBGYQ6BTTCWZYYD",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 256 GB ROM | Expandable Upto 2 TB",
+        "16.94 cm (6.67 inch) Full HD+ Display",
+        "50MP + 2MP | 16MP Front Camera",
+        "5000 mAh Battery",
+        "Dimensity 7050 Processor"
+      ],
+      "isSponsored": false,
+      "mrp": 22999,
+      "price": 18999,
+      "rating": {
+        "average": 4.3,
+        "count": 11832,
+        "reviewCount": 664,
+        "breakup": [720, 258, 751, 2694, 7409]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/y/9/0/-original-imahyuhfg2z4fvyh.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/m/8/8/-original-imahyaaxchmmsgeg.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/4/u/o/-original-imahyaaxfuyegr4w.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/r/y/t/-original-imahyaax6ekyghpc.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/s/i/z/-original-imahyfg6yctnwh2f.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/l/x/d/-original-imahyaaxnqyph7ag.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/2/i/i/-original-imahyaaxze8fpnnr.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/b/h/c/-original-imahyaaxruvbgy8z.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/6/k/k/-original-imahyaaxeezkzvsd.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/t/z/4/-original-imahyaaxytqbnzfh.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/r/0/t/-original-imahyaax72cqsahz.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/p/s/a/-original-imahyaaxfqk6u7xz.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2022-07-30"
+    },
+    {
+      "pid": "MOBGZJ3WM5SGTGVZ",
+      "itemId": "ITM2CD5A4E659035",
+      "listingId": "LSTMOBGZJ3WM5SGTGVZL9QHES",
+      "brand": "OnePlus",
+      "title": "OnePlus Nord CE 3 Lite 5G (Pastel Lime, 128 GB)",
+      "ram": 8,
+      "url": "https://flipkart.com/oneplus-nord-ce-3-lite-5g-pastel-lime-128-gb/p/itm2cd5a4e659035?pid=MOBGZJ3WM5SGTGVZ",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "8 GB RAM | 128 GB ROM",
+        "17.07 cm (6.72 inch) Display",
+        "108MP Rear Camera",
+        "5000 mAh Battery"
+      ],
+      "isSponsored": false,
+      "mrp": 19999,
+      "price": 17499,
+      "rating": {
+        "average": 4.4,
+        "count": 104164,
+        "reviewCount": 5508,
+        "breakup": [5529, 2656, 6518, 21622, 67839]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/l/7/k/-original-imagtxvur9yrxvru.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/f/f/b/nord-ce-3-lite-5g-ce2099-oneplus-original-imagzj3wj2wvzsmg.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/s/k/u/nord-ce-3-lite-5g-ce2099-oneplus-original-imagzj3w2fvgzerg.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/t/r/r/-original-imagtxvugpakqygr.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2021-09-09"
+    },
+    {
+      "pid": "MOBGHWFHVCB2YZYR",
+      "itemId": "ITMC922DDC8AF349",
+      "listingId": "LSTMOBGHWFHVCB2YZYRBDOEVN",
+      "brand": "Apple",
+      "ram": "A",
+      "title": "Apple iPhone 14 Plus (Starlight, 128 GB)",
+      "url": "https://flipkart.com/apple-iphone-14-plus-starlight-128-gb/p/itmc922ddc8af349?pid=MOBGHWFHVCB2YZYR",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "128 GB ROM",
+        "17.02 cm (6.7 inch) Super Retina XDR Display",
+        "12MP + 12MP | 12MP Front Camera",
+        "A15 Bionic Chip, 6 Core Processor Processor"
+      ],
+      "isSponsored": false,
+      "mrp": 79600,
+      "price": 60476,
+      "rating": {
+        "average": 4.6,
+        "count": 77507,
+        "reviewCount": 4339,
+        "breakup": [3301, 1012, 2150, 10381, 60663]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/l/v/8/-original-imaghx9qudmydgc4.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/2/o/u/-original-imaghxcyybbne8x8.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/t/v/s/-original-imaghxcpwgy2t2sg.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/5/i/7/-original-imaguypzzhbzm5an.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/e/f/h/-original-imaguypztg4ddpes.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/a/q/n/-original-imagh2gw4zqxyzst.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/1/d/y/-original-imaghxcpvtta2hzs.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/q/b/i/-original-imaghxcptg5mdycw.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/n/t/g/-original-imaghxcp4ctcfwff.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/x/1/e/-original-imaghxcyszhqq8uc.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2023-09-06"
+    },
+    {
+      "pid": "MOBGW9FEZKAV8QCZ",
+      "itemId": "ITMB18DC9EE625CF",
+      "listingId": "LSTMOBGW9FEZKAV8QCZRRZJWH",
+      "brand": "POCO",
+      "title": "POCO M6 5G (Galactic Black, 128 GB)",
+      "ram": 6,
+      "url": "https://flipkart.com/poco-m6-5g-galactic-black-128-gb/p/itmb18dc9ee625cf?pid=MOBGW9FEZKAV8QCZ",
+      "stock": "IN_STOCK",
+      "highlights": [
+        "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+        "17.12 cm (6.74 inch) HD+ Display",
+        "50MP Rear Camera | 5MP Front Camera",
+        "5000 mAh Battery",
+        "Mediatek Dimensity 6100+ Processor"
+      ],
+      "isSponsored": false,
+      "mrp": 13999,
+      "price": 9999,
+      "rating": {
+        "average": 4.3,
+        "count": 24418,
+        "reviewCount": 1289,
+        "breakup": [1580, 822, 2086, 5207, 14723]
+      },
+      "images": [
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/h/b/r/-original-imagytcpcnjbduwh.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/t/x/u/m6-5g-mzb0fqtin-poco-original-imagwes3htgng6y4.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/u/h/n/m6-5g-mzb0fqtin-poco-original-imagwes3gyzsg58h.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/v/b/i/-original-imagx4dpmh92hejb.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/7/k/7/m6-5g-mzb0fqtin-poco-original-imagwes3ujg3cmy7.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/8/r/1/m6-5g-mzb0fqtin-poco-original-imagwes3f5asrzak.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/b/8/s/m6-5g-mzb0fqtin-poco-original-imagwes3xvfyranz.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/k/m/q/m6-5g-mzb0fqtin-poco-original-imagwes3chzpfsqh.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/z/l/w/m6-5g-mzb0fqtin-poco-original-imagwes3zgwz5nxt.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/j/e/e/m6-5g-mzb0fqtin-poco-original-imagwes3qzxhsmfc.jpeg?q=90",
+        "https://rukminim2.flixcart.com/image/1160/1160/xif0q/mobile/4/j/b/m6-5g-mzb0fqtin-poco-original-imagwes33avt2tbp.jpeg?q=90"
+      ],
+
+      "newLaunchDate": "2020-02-03"
+    },
+    {
+      "brand": "",
+      "title": "",
+      "ram": "",
+      "stock": "",
+      "highlights": [],
+      "mrp": 79600,
+      "price": {
+        "average": "",
+        "count": "",
+        "reviewCount": ""
+      },
+      "image": ""
+    },
+    {
+      "brand": "",
+      "title": "",
+      "ram": "",
+      "stock": "",
+      "highlights": [],
+      "mrp": 79600,
+      "price": {
+        "average": "",
+        "count": "",
+        "reviewCount": ""
+      },
+      "image": ""
+    },
+    {
+      "brand": "",
+      "title": "",
+      "ram": "",
+      "stock": "",
+      "highlights": [],
+      "mrp": 79600,
+      "price": {
+        "average": "",
+        "count": "",
+        "reviewCount": ""
+      },
+      "image": ""
+    },
+    {
+      "brand": "",
+      "title": "",
+      "ram": "",
+      "stock": "",
+      "highlights": [],
+      "mrp": 79600,
+      "price": {
+        "average": "",
+        "count": "",
+        "reviewCount": ""
+      },
+      "image": ""
+    },
+    {
+      "brand": "",
+      "title": "",
+      "ram": "",
+      "stock": "",
+      "highlights": [],
+      "mrp": 79600,
+      "price": {
+        "average": "",
+        "count": "",
+        "reviewCount": ""
+      },
+      "image": ""
+    },
+    {
+      "brand": "",
+      "title": "",
+      "ram": "",
+      "stock": "",
+      "highlights": [],
+      "mrp": 79600,
+      "price": {
+        "average": "",
+        "count": "",
+        "reviewCount": ""
+      },
+      "image": ""
+    },
+    {
+      "brand": "",
+      "title": "",
+      "ram": "",
+      "stock": "",
+      "highlights": [],
+      "mrp": 79600,
+      "price": {
+        "average": "",
+        "count": "",
+        "reviewCount": ""
+      },
+      "image": ""
+    },
+    {
+      "brand": "",
+      "title": "",
+      "ram": "",
+      "stock": "",
+      "highlights": [],
+      "mrp": 79600,
+      "price": {
+        "average": "",
+        "count": "",
+        "reviewCount": ""
+      },
+      "image": ""
+    },
+    {
+      "brand": "",
+      "title": "",
+      "ram": "",
+      "stock": "",
+      "highlights": [],
+      "mrp": 79600,
+      "price": {
+        "average": "",
+        "count": "",
+        "reviewCount": ""
+      },
+      "image": ""
+    },
+    {
+      "brand": "",
+      "title": "",
+      "ram": "",
+      "stock": "",
+      "highlights": [],
+      "mrp": 79600,
+      "price": {
+        "average": "",
+        "count": "",
+        "reviewCount": ""
+      },
+      "image": ""
+    }
+  ]
+}
