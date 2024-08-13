@@ -6,7 +6,8 @@ async function getData() {
   data = await res.json();
 
   // console.log(data.products);
-  // console.log(data);
+  console.log(data);
+  return data;
 }
 
 getData();

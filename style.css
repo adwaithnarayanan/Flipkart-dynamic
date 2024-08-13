@@ -80,7 +80,6 @@ nav {
   display: flex;
   flex-direction: column;
   min-width: 137px;
-  /* background-color: red; */
   align-items: flex-end;
   height: fit-content;
 }
