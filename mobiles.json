@@ -3,16 +3,17 @@
     "explore": "Explore",
     "plus": "Plus",
     "login": "login",
-    "nav-text": ["Become a Seller", "More", "Cart"],
-    "down-arrow-white": "assets/icons/arrow-white.svg",
+    "navText": ["Become a Seller", "More", "Cart"],
+    "downArrowWhite": "assets/icons/arrow-white.svg",
+    "searchPlaceholder": "Search for products, brands and more",
     "icons": {
-      "plus-icon": "assets/icons/plus.png",
-      "flipkar-text": "assets/pictures/flipkart.png",
-      "search-blue": "assets/icons/search-icon.svg",
-      "cart-icon": "assets/icons/cart.svg"
+      "plusIcon": "assets/icons/plus.png",
+      "flipkartText": "assets/pictures/flipkart.png",
+      "searchBlue": "assets/icons/search-icon.svg",
+      "cartIcon": "assets/icons/cart.svg"
     }
   },
-  "categories-tab": {
+  "categoriesTab": {
     "items": [
       "Electronics",
       "TV & Appliances",
@@ -24,7 +25,7 @@
       "Flights",
       "Offer Zone"
     ],
-    "down-arrow": "assets/icons/cart.svg"
+    "downArrow": "assets/icons/arrow-gray.svg"
   },
   "products": [
     {
@@ -38,6 +39,7 @@
         "12MP + 12MP | 12MP Front Camera",
         "A15 Bionic Chip, 6 Core Processor Processor"
       ],
+      "isSponsored": false,
       "mrp": 79600,
       "price": 60478,
       "rating": {
@@ -59,6 +61,7 @@
         "6000 mAh Battery",
         "Dimensity 7025 Processor"
       ],
+      "isSponsored": false,
       "mrp": 17999,
       "price": 13999,
       "rating": {
@@ -80,6 +83,7 @@
         "5000 mAh Battery",
         "7s Gen 2 Processor"
       ],
+      "isSponsored": false,
       "mrp": 27999,
       "price": 24999,
       "rating": {
@@ -101,6 +105,7 @@
         "5000 mAh Battery",
         "Dimensity 6300 Processor"
       ],
+      "isSponsored": false,
       "mrp": 15499,
       "price": 11499,
       "rating": {
@@ -122,6 +127,7 @@
         "5000 mAh Battery",
         "T606 Processor"
       ],
+      "isSponsored": false,
       "mrp": 9999,
       "price": 6999,
       "rating": {
@@ -143,6 +149,7 @@
         "6000 mAh Battery",
         "Dimensity 7025 Processor"
       ],
+      "isSponsored": false,
       "mrp": 19999,
       "price": 15999,
       "rating": {
@@ -165,6 +172,7 @@
         "Snapdragon 695 5G Processor",
         "Vegan Leather Design"
       ],
+      "isSponsored": false,
       "mrp": 14999,
       "price": 11999,
       "rating": {
@@ -186,6 +194,7 @@
         "5000 mAh Battery",
         "7s Gen 2 Processor"
       ],
+      "isSponsored": false,
       "mrp": 25999,
       "price": 22999,
       "rating": {
@@ -207,6 +216,7 @@
         "5000 mAh Battery",
         "7s Gen 2 Processor"
       ],
+      "isSponsored": false,
       "mrp": 27999,
       "price": 24999,
       "rating": {
@@ -228,6 +238,7 @@
         "5000 mAh Battery",
         "7s Gen 2 Processor"
       ],
+      "isSponsored": false,
       "mrp": 25999,
       "price": 22999,
       "rating": {
@@ -249,6 +260,7 @@
         "6000 mAh Battery",
         "Dimensity 7025 Processor"
       ],
+      "isSponsored": false,
       "mrp": 19999,
       "price": 15999,
       "rating": {
@@ -270,6 +282,7 @@
         "5100 mAh Battery",
         "Dimensity 6300 Processor"
       ],
+      "isSponsored": false,
       "mrp": 16999,
       "price": 12999,
       "rating": {
@@ -291,6 +304,7 @@
         "5000 mAh Battery",
         "7s Gen 2 Processor"
       ],
+      "isSponsored": false,
       "mrp": 25999,
       "price": 22999,
       "rating": {
@@ -312,6 +326,7 @@
         "5000 mAh Battery",
         "Dimensity 6300 Processor"
       ],
+      "isSponsored": false,
       "mrp": 15499,
       "price": 11499,
       "rating": {
@@ -332,6 +347,7 @@
         "48MP + 12MP | 12MP Front Camera",
         "A16 Bionic Chip, 6 Core Processor Processor"
       ],
+      "isSponsored": false,
       "mrp": 89600,
       "price": 74999,
       "rating": {
@@ -353,6 +369,7 @@
         "5000 mAh Battery",
         "Helio G85 Processor"
       ],
+      "isSponsored": false,
       "mrp": 11999,
       "price": 7699,
       "rating": {
@@ -374,6 +391,7 @@
         "5000 mAh Battery",
         "Dimensity 6100+ Processor"
       ],
+      "isSponsored": false,
       "mrp": 18999,
       "price": 14999,
       "rating": {
@@ -396,6 +414,7 @@
         "5000 mAh Battery",
         "Helio G36 Processor"
       ],
+      "isSponsored": false,
       "mrp": 8999,
       "price": 5799,
       "rating": {
@@ -417,6 +436,7 @@
         "5000 mAh Battery",
         "Helio G85 Processor"
       ],
+      "isSponsored": false,
       "mrp": 11999,
       "price": 7299,
       "rating": {
@@ -439,6 +459,7 @@
         "4500 mAh Battery",
         "Samsung Exynos 2200 Processor"
       ],
+      "isSponsored": false,
       "mrp": 79999,
       "price": 34999,
       "rating": {
@@ -461,6 +482,7 @@
         "3900 mAh Lithium Ion Battery",
         "Qualcomm Snapdragon 8 Gen 2 Processor"
       ],
+      "isSponsored": false,
       "mrp": 95999,
       "price": 49999,
       "rating": {
@@ -483,6 +505,7 @@
         "5000 mAh Battery",
         "Mediatek Dimensity 6100+ Processor"
       ],
+      "isSponsored": false,
       "mrp": 13999,
       "price": 10499,
       "rating": {
@@ -504,6 +527,7 @@
         "5000 mAh Battery",
         "T612 Processor"
       ],
+      "isSponsored": false,
       "mrp": 10999,
       "price": 8999,
       "rating": {
@@ -525,6 +549,7 @@
         "5000 mAh Battery",
         "Helio G85 Processor"
       ],
+      "isSponsored": false,
       "mrp": 10999,
       "price": 6799,
       "rating": {
@@ -546,6 +571,7 @@
         "3900 mAh Lithium Ion Battery",
         "Qualcomm Snapdragon 8 Gen 2 Processor"
       ],
+      "isSponsored": false,
       "mrp": 89999,
       "price": 44999,
       "rating": {
@@ -567,6 +593,7 @@
         "108MP Rear Camera",
         "5000 mAh Battery"
       ],
+      "isSponsored": false,
       "mrp": 19999,
       "price": 16797,
       "rating": {
@@ -587,6 +614,7 @@
         "108MP Rear Camera",
         "5000 mAh Battery"
       ],
+      "isSponsored": false,
       "mrp": 21999,
       "price": 18170,
       "rating": {
@@ -608,6 +636,7 @@
         "1000 mAh Battery",
         "SC6531E Processor"
       ],
+      "isSponsored": false,
       "mrp": 1599,
       "price": 1246,
       "rating": {
@@ -629,6 +658,7 @@
         "6000 mAh Battery",
         "Exynos 1280 Processor"
       ],
+      "isSponsored": false,
       "mrp": 24499,
       "price": 12999,
       "rating": {
@@ -650,6 +680,7 @@
         "5000 mAh Battery",
         "Dimensity 7200 Pro Processor"
       ],
+      "isSponsored": false,
       "mrp": 29999,
       "price": 27999,
       "rating": {
@@ -672,6 +703,7 @@
         "5000 mAh Battery",
         "T612 Processor"
       ],
+      "isSponsored": false,
       "mrp": 10999,
       "price": 8999,
       "rating": {
@@ -694,6 +726,7 @@
         "5000 mAh Battery",
         "Dimensity 7200 Pro Processor"
       ],
+      "isSponsored": false,
       "mrp": 27999,
       "price": 25999,
       "rating": {
@@ -715,6 +748,7 @@
         "5000 mAh Battery",
         "Dimensity 7050 Processor"
       ],
+      "isSponsored": false,
       "mrp": 21999,
       "price": 16999,
       "rating": {
@@ -736,6 +770,7 @@
         "12MP + 12MP | 12MP Front Camera",
         "A15 Bionic Chip Processor"
       ],
+      "isSponsored": false,
       "mrp": 69600,
       "price": 59999,
       "rating": {
@@ -758,6 +793,7 @@
         "5000 mAh Battery",
         "Snapdragon 4 Gen 2 Processor"
       ],
+      "isSponsored": false,
       "mrp": 17999,
       "price": 12499,
       "rating": {
@@ -780,6 +816,7 @@
         "5000 mAh Battery",
         "Dimensity 6100+ Processor"
       ],
+      "isSponsored": false,
       "mrp": 18999,
       "price": 14999,
       "rating": {
@@ -801,6 +838,7 @@
         "108MP Rear Camera",
         "5000 mAh Battery"
       ],
+      "isSponsored": false,
       "mrp": 21999,
       "price": 18227,
       "rating": {
@@ -823,6 +861,7 @@
         "5000 mAh Battery",
         "Mediatek Dimensity 6100+ Processor"
       ],
+      "isSponsored": false,
       "mrp": 12999,
       "price": 8249,
       "rating": {
@@ -843,6 +882,7 @@
         "48MP + 12MP | 12MP Front Camera",
         "A16 Bionic Chip, 6 Core Processor Processor"
       ],
+      "isSponsored": false,
       "mrp": 89600,
       "price": 75499,
       "rating": {
@@ -864,6 +904,7 @@
         "50MP Rear Camera",
         "5000 mAh Battery"
       ],
+      "isSponsored": false,
       "mrp": 9999,
       "price": 8449,
       "rating": {
@@ -885,6 +926,7 @@
         "108MP Rear Camera",
         "5000 mAh Battery"
       ],
+      "isSponsored": false,
       "mrp": 19999,
       "price": 17499,
       "rating": {
@@ -905,6 +947,7 @@
         "12MP + 12MP | 12MP Front Camera",
         "A15 Bionic Chip, 6 Core Processor Processor"
       ],
+      "isSponsored": false,
       "mrp": 79600,
       "price": 60476,
       "rating": {
@@ -926,6 +969,7 @@
         "5000 mAh Battery",
         "Mediatek Dimensity 6100+ Processor"
       ],
+      "isSponsored": false,
       "mrp": 13999,
       "price": 9999,
       "rating": {
@@ -947,6 +991,7 @@
         "5000 mAh Battery",
         "Dimensity 7050 Processor"
       ],
+      "isSponsored": false,
       "mrp": 23999,
       "price": 20999,
       "rating": {
@@ -968,6 +1013,7 @@
         "4500 mAh Battery",
         "Samsung Exynos 2200 Processor"
       ],
+      "isSponsored": false,
       "mrp": 79999,
       "price": 34999,
       "rating": {
@@ -989,6 +1035,7 @@
         "5000 mAh Battery",
         "Helio G85 Processor"
       ],
+      "isSponsored": false,
       "mrp": 11999,
       "price": 7299,
       "rating": {
@@ -1009,6 +1056,7 @@
         "48MP + 12MP | 12MP Front Camera",
         "A16 Bionic Chip, 6 Core Processor Processor"
       ],
+      "isSponsored": false,
       "mrp": 89600,
       "price": 74999,
       "rating": {
@@ -1030,6 +1078,7 @@
         "5000 mAh Battery",
         "Helio G36 Processor"
       ],
+      "isSponsored": false,
       "mrp": 10999,
       "price": 7999,
       "rating": {
@@ -1051,6 +1100,7 @@
         "5000 mAh Battery",
         "Helio G36 Processor"
       ],
+      "isSponsored": false,
       "mrp": 10999,
       "price": 7999,
       "rating": {
@@ -1072,6 +1122,7 @@
         "4270 mAh Battery",
         "Google Tensor G2 Processor"
       ],
+      "isSponsored": false,
       "mrp": 59999,
       "price": 32999,
       "rating": {
@@ -1093,6 +1144,7 @@
         "6000 mAh Battery",
         "6 Gen 1 Processor"
       ],
+      "isSponsored": false,
       "mrp": 18999,
       "price": 14999,
       "rating": {
@@ -1114,6 +1166,7 @@
         "5000 mAh Battery",
         "6 Gen 1 Processor"
       ],
+      "isSponsored": false,
       "mrp": 25999,
       "price": 19999,
       "rating": {
@@ -1135,6 +1188,7 @@
         "5000 mAh Battery",
         "Dimensity 7050 Processor"
       ],
+      "isSponsored": false,
       "mrp": 25999,
       "price": 21999,
       "rating": {
@@ -1156,6 +1210,7 @@
         "5000 mAh Battery",
         "Dimensity 7050 Processor"
       ],
+      "isSponsored": false,
       "mrp": 25999,
       "price": 21999,
       "rating": {
@@ -1175,6 +1230,7 @@
         "4.5 cm (1.77 inch) Quarter QVGA Display",
         "1000 mAh Battery"
       ],
+      "isSponsored": false,
       "mrp": 1399,
       "price": 958,
       "rating": {
@@ -1195,6 +1251,7 @@
         "48MP + 12MP | 12MP Front Camera",
         "A16 Bionic Chip, 6 Core Processor Processor"
       ],
+      "isSponsored": false,
       "mrp": 79600,
       "price": 65499,
       "rating": {
@@ -1216,6 +1273,7 @@
         "5000 mAh Battery",
         "Unisoc T606 Processor"
       ],
+      "isSponsored": false,
       "mrp": 10999,
       "price": 8999,
       "rating": {
@@ -1237,6 +1295,7 @@
         "5000 mAh Battery",
         "6s Gen 3 Processor"
       ],
+      "isSponsored": false,
       "mrp": 20999,
       "price": 17999,
       "rating": {
@@ -1258,6 +1317,7 @@
         "5000 mAh Battery",
         "Helio G36 Processor"
       ],
+      "isSponsored": false,
       "mrp": 8999,
       "price": 7299,
       "rating": {
@@ -1279,6 +1339,7 @@
         "5000 mAh Battery",
         "Helio G36 Processor"
       ],
+      "isSponsored": false,
       "mrp": 8999,
       "price": 7299,
       "rating": {
@@ -1300,6 +1361,7 @@
         "4300 mAh Battery",
         "Tensor G2 Processor"
       ],
+      "isSponsored": false,
       "mrp": 43999,
       "price": 36999,
       "rating": {
@@ -1321,6 +1383,7 @@
         "4575 mAh Battery",
         "Tensor G3 Processor"
       ],
+      "isSponsored": false,
       "mrp": 75999,
       "price": 58999,
       "rating": {
@@ -1342,6 +1405,7 @@
         "4404 mAh Battery",
         "Tensor G3 Processor"
       ],
+      "isSponsored": false,
       "mrp": 59999,
       "price": 59999,
       "rating": {
