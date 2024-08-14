@@ -33,3 +33,5 @@ class CategoriesTab {
 }
 
 export default new CategoriesTab();
+
+// 35 till 13/08

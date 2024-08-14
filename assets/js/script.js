@@ -12,15 +12,15 @@ async function getData() {
   const data = await res.json();
 
   // console.log(data.products);
-  console.log(data);
+  // console.log(data);
 
   navbar.render(data.nav);
   categoriesTab.render(data.categoriesTab);
-  filterSection.render(data);
+  filterSection.render(data.products);
 
   // return data;
 }
 
 getData();
 
-// 13 till 12/08
+// 24 till 13/08

@@ -111,8 +111,8 @@
       </ul>
     </div> -->
 
-    <!-- <main class="main-section"> -->
-    <!-- <div class="filter-section-container">
+    <!-- <main class="main-section">
+      <div class="filter-section-container">
         <div class="section-heading-filter">
           <div class="filter-heading">
             <span class="section-heading">Filters</span>
@@ -140,13 +140,38 @@
             <span class="product">Mobiles</span>
           </div>
         </div>
+
         <div class="filter-section">
           <span class="sub-heading">PRICE</span>
-          <div class="price-range"></div>
+          <div class="price-range">
+            <ul class="range-box">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+            <div class="price-slider-container">
+              <div class="price-slider">
+                <span class="min-dot dot"></span>
+                <span class="max-dot dot"></span>
+                <span class="active-range"></span>
+                <span class="vacant-range"></span>
+              </div>
+              <ul class="price-slider-divider">
+                <li>.</li>
+                <li>.</li>
+                <li>.</li>
+                <li>.</li>
+                <li>.</li>
+                <li>.</li>
+              </ul>
+            </div>
+          </div>
           <div class="min-max-drop">
             <div class="range-dropdown">
               <select name="min-price" id="min-price" class="dropdown-price">
-                <option value="min">Min</option>
+                <option selected value="min">Min</option>
                 <option value="10000">10000</option>
                 <option value="15000">15000</option>
                 <option value="20000">20000</option>
@@ -160,11 +185,12 @@
                 <option value="15000">15000</option>
                 <option value="20000">20000</option>
                 <option value="30000">30000</option>
-                <option value="max">30000+</option>
+                <option selected value="max">30000+</option>
               </select>
             </div>
           </div>
         </div>
+
         <div class="filter-section">
           <span class="sub-heading">BRAND</span>
           <div class="brand-section">
@@ -206,8 +232,61 @@
               </ul>
             </div>
             <div class="more .brand-more">87 more</div>
+            <div class="more-brands-container ">
+              <div class="more-brands-nav">
+                <input
+                  type="text"
+                  name="search-brand-all"
+                  id="search-brand-all"
+                  placeholder="Search Brand"
+                />
+
+                <span class="close-more-brands">✕</span>
+              </div>
+
+              <div class="show-all-brands">
+                <ul class="all-brands-ul checkbox-list">
+                  <li>
+                    <input type="checkbox" name="samsung" id="samsung" /><label
+                      for="samsung"
+                      >SAMSUNG</label
+                    >
+                  </li>
+                  <li>
+                    <input type="checkbox" name="vivo" id="vivo" /><label
+                      for="vivo"
+                      >vivo</label
+                    >
+                  </li>
+                  <li>
+                    <input type="checkbox" name="oppo" id="oppo" /><label
+                      for="oppo"
+                      >oppo</label
+                    >
+                  </li>
+                  <li>
+                    <input type="checkbox" name="realme" id="realme" /><label
+                      for="realme"
+                      >realme</label
+                    >
+                  </li>
+                  <li>
+                    <input type="checkbox" name="poco" id="poco" /><label
+                      for="poco"
+                      >POCO</label
+                    >
+                  </li>
+                </ul>
+              </div>
+
+              <div class="all-brands-buttons">
+                <button class="clearAll">clear all</button>
+                <button class="apply-filters">apply filters</button>
+              </div>
+            </div>
           </div>
         </div>
+
         <div class="filter-section">
           <span class="sub-heading assured">
             <input type="checkbox" name="f-assured" id="f-assured" />
@@ -402,4 +481,4 @@
   </body>
 </html>
 
-<!-- 378 till 10/08/2024 -->
+<!-- 428 till 13/08/2024 -->

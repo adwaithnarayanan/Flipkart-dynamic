@@ -293,6 +293,7 @@ nav {
   font-size: 12px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .filtered {
@@ -323,6 +324,7 @@ nav {
 
 .filtered-item .filter {
   margin-left: 8px;
+  /* text-decoration: line-through; */
 }
 
 .filter-section {
@@ -373,10 +375,88 @@ nav {
 }
 
 .price-range {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.range-box {
+  height: 25px;
+  display: flex;
+  width: 92%;
+}
+
+.range-box li {
+  background-color: #e0e0e0;
+  height: 100%;
+  /* width: 25px; */
+  width: 100%;
+}
+
+.price-slider-container {
+  width: 100%;
+}
+
+.price-slider {
+  background-color: red;
+  position: relative;
+}
+
+.dot {
+  height: 13px;
+  width: 13px;
+  border: 1px solid #bababa;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 100;
+  top: -6px;
+  cursor: pointer;
+}
+
+.min-dot {
+  left: 0;
+}
+
+.max-dot {
+  right: 0;
+}
+
+.active-range {
+  height: 6px;
+  width: 100%;
+  background-color: var(--primary-color);
+  position: absolute;
+  border-radius: 50px;
+  top: -2px;
+  transform-origin: left center;
+  cursor: pointer;
+}
+
+.vacant-range {
+  background-color: #c2c2c2;
+  /* background-color: red; */
+  display: flex;
+
+  width: 100%;
+  height: 2px;
+  cursor: pointer;
+}
+
+.price-slider-divider {
+  display: flex;
+  width: 100%;
+  /* background-color: red; */
+  justify-content: space-between;
+}
+
+.price-slider-divider li {
+  color: var(--font-color-four);
 }
 
 .min-max-drop {
   display: flex;
+  margin-top: 5px;
 }
 
 .range-dropdown {
@@ -389,6 +469,10 @@ nav {
   padding: 0 5px;
   box-sizing: border-box;
   /* background-image: url(assets/icons/dropdown-arrow.svg); */
+}
+
+.dropdown-price:focus {
+  outline: none;
 }
 
 .dropdown-price option {
@@ -406,6 +490,9 @@ nav {
 }
 
 .brand-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .clear-checked-brands {
@@ -497,6 +584,107 @@ nav {
   color: var(--font-color-two);
   text-transform: uppercase;
   margin-top: 9px;
+  cursor: pointer;
+}
+
+.more-brands-container {
+  position: absolute;
+  background-color: #fff;
+  /* left: 16px; */
+  /* padding: 16px; */
+  width: 944px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.more-brands-nav {
+  padding: 12px;
+  height: 56px;
+  background-color: #fafafa;
+  display: flex;
+  justify-content: space-between;
+}
+
+#search-brand-all {
+  width: 198px;
+  height: 32px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 8px 15px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.close-more-brands {
+  cursor: pointer;
+  padding-right: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.show-all-brands {
+}
+
+.all-brands-ul {
+  margin: 18px 24px 20px;
+  overflow-x: scroll;
+  white-space: nowrap;
+  border-radius: 2px;
+  height: 288px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: fit-content;
+}
+
+.all-brands-ul li {
+  height: 29.6px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 2px 0;
+  width: 210px;
+}
+
+.all-brands-ul li input {
+}
+
+.all-brands-ul li label {
+}
+
+.all-brands-buttons {
+  height: 56px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 9px 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.all-brands-buttons button {
+  text-transform: uppercase;
+  border: none;
+  background-color: transparent;
+  padding: 11px 10px;
+  font-size: 13.5px;
+  font-family: var(--font-semiBold);
+  cursor: pointer;
+}
+
+button.clearAll {
+  color: var(--font-color-two);
+  margin-right: 13px;
+}
+
+button.apply-filters {
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.3);
+  margin-right: 1px;
+  min-width: 123px;
 }
 
 .assured input {
@@ -786,4 +974,4 @@ nav {
   display: none;
 }
 
-/* 788 till 10/08/2024 */
+/* 864 till 13/08/2024 */
