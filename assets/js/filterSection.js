@@ -645,6 +645,8 @@ class FilterSection {
     const element = this._createDropDown(minValue, maxValue);
     minMaxDropdown.innerHTML = element;
 
+    // console.log(minValue, maxValue);
+
     const filterText = `${minValue < 10000 ? "Min" : "₹" + minValue}-₹${
       maxValue > 30000 ? "30000+" : maxValue
     }`;
