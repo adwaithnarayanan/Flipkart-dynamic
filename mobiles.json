@@ -16,7 +16,7 @@
   "categoriesTab": {
     "items": [
       "Electronics",
-      "TV & Appliances",
+      "TVs & Appliances",
       "Men",
       "Women",
       "Baby & Kids",
@@ -33,6 +33,7 @@
     "arrowGray": "assets/icons/arrow-gray.svg",
     "searchGray": "assets/icons/search-gray.svg",
     "allProductsButtons": ["clear all", "apply filters"],
+    "assured": "assets/icons/assured.png",
     "productItems": [
       {
         "brand": "Apple",
@@ -141,7 +142,7 @@
           "count": 10141,
           "reviewCount": 567
         },
-        "image": "assets/pictures/mobiles/moto-g04s-black-64.webp"
+        "image": "assets/pictures/mobiles/moto-g04s black-64.webp"
       },
       {
         "brand": "MOTOROLA",
@@ -163,7 +164,7 @@
           "count": 13420,
           "reviewCount": 819
         },
-        "image": "assets/pictures/mobiles/moto-g64-lilac-256.webp"
+        "image": "assets/pictures/mobiles/moto-g64-ice-lilac-256.webp"
       },
       {
         "brand": "MOTOROLA",
@@ -274,7 +275,7 @@
           "count": 13420,
           "reviewCount": 819
         },
-        "image": "assets/pictures/mobiles/moto-g46-blue-.webp"
+        "image": "assets/pictures/mobiles/moto-g64-blue.webp"
       },
       {
         "brand": "OPPO",
@@ -318,7 +319,7 @@
           "count": 30011,
           "reviewCount": 1908
         },
-        "image": "assets/pictures/mobiles/moto-edge50-fusion-blue"
+        "image": "assets/pictures/mobiles/moto-edge50-fusion-blue.webp"
       },
       {
         "brand": "vivo",
@@ -764,7 +765,6 @@
         },
         "image": "assets/pictures/mobiles/realme-p1-green.webp"
       },
-
       {
         "brand": "Apple",
         "ram": "A",
@@ -786,30 +786,6 @@
         },
         "image": "assets/pictures/mobiles/iphone-13-midnight.webp"
       },
-
-      {
-        "brand": "REDMI",
-        "title": "REDMI 12 5G (Moonstone Silver, 128 GB)",
-        "ram": 6,
-        "stock": "IN_STOCK",
-        "highlights": [
-          "6 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
-          "17.25 cm (6.79 inch) Full HD+ Display",
-          "50MP + 2MP | 8MP Front Camera",
-          "5000 mAh Battery",
-          "Snapdragon 4 Gen 2 Processor"
-        ],
-        "isSponsored": false,
-        "mrp": 17999,
-        "price": 12499,
-        "rating": {
-          "average": 4.2,
-          "count": 45975,
-          "reviewCount": 2112
-        },
-        "image": "assets/pictures/mobiles/redmi-12-silver.webp"
-      },
-
       {
         "brand": "realme",
         "title": "realme 12x 5G (Twilight Purple, 128 GB)",
@@ -1227,26 +1203,6 @@
         "image": "assets/pictures/mobiles/realme-12plus-beige.webp"
       },
       {
-        "brand": "LAVA",
-        "title": "LAVA A1 Josh BOL Keypad Mobile|1000 mAh Battery|Expandable Storage 32GB",
-        "ram": 1,
-        "stock": "IN_STOCK",
-        "highlights": [
-          "4 MB RAM | 4 MB ROM | Expandable Upto 32 GB",
-          "4.5 cm (1.77 inch) Quarter QVGA Display",
-          "1000 mAh Battery"
-        ],
-        "isSponsored": false,
-        "mrp": 1399,
-        "price": 958,
-        "rating": {
-          "average": 4,
-          "count": 7287,
-          "reviewCount": 330
-        },
-        "image": "assets/pictures/mobiles/lava-a1-keypad.webp"
-      },
-      {
         "brand": "Apple",
         "ram": "A",
         "title": "Apple iPhone 15 (Yellow, 128 GB)",
@@ -1375,7 +1331,7 @@
           "count": 19902,
           "reviewCount": 2098
         },
-        "images": "assets/pictures/mobiles/google-pixel-7a-charcol.webp"
+        "image": "assets/pictures/mobiles/google-pixel-7a-charcol.webp"
       },
       {
         "brand": "Google",
@@ -1397,7 +1353,7 @@
           "count": 2530,
           "reviewCount": 343
         },
-        "images": "assets/pictures/mobiles/google-pixel-8-mint.webp"
+        "image": "assets/pictures/mobiles/google-pixel-8-mint.webp"
       },
       {
         "brand": "Google",
@@ -1419,7 +1375,7 @@
           "count": 877,
           "reviewCount": 102
         },
-        "images": "assets/pictures/mobiles/google-pixel-8a-odsidians.webp"
+        "image": "assets/pictures/mobiles/google-pixel-8a-odsidian.webp"
       }
     ]
   }

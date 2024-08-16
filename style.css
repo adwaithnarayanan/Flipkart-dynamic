@@ -595,6 +595,7 @@ nav {
   width: 944px;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.1);
+  z-index: 700;
 }
 
 .more-brands-nav {
@@ -753,6 +754,7 @@ button.apply-filters {
 
 .sort-by {
   display: flex;
+  border-bottom: 1px solid #f0f0f0;
 }
 
 .sort-by-head {
@@ -781,11 +783,13 @@ button.apply-filters {
 /* _____---------- Product card ----------_____ */
 
 .products-view {
-  padding: 24px 0 30px 24px;
+  /* padding: 24px 0 30px 24px; */
 }
 
 .products-view li {
   cursor: pointer;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 24px 0 30px 24px;
 }
 
 .product-card {
@@ -799,13 +803,24 @@ button.apply-filters {
   flex-direction: column;
 }
 
-.product-img .img img {
+.product-img .img {
   width: 200px;
+  height: 200px;
+  display: flex;
+}
+
+.product-img .img img {
+  max-height: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  /* width: 200px;
+  padding: 26px; */
 }
 
 .add-to-compare {
   font-size: 13.5px;
   display: flex;
+  margin-top: 16px;
 }
 
 .add-to-compare input {
@@ -819,6 +834,10 @@ button.apply-filters {
   position: absolute;
   top: 2px;
   right: -8px;
+
+  /*  */
+  display: flex;
+  height: fit-content;
 }
 
 .wishlist img {
@@ -886,7 +905,9 @@ button.apply-filters {
   font-size: 13.5px;
   line-height: 22px;
   white-space: wrap;
+  padding: 0;
   padding-right: 8px;
+  border: none;
 }
 
 .product-spec li::before {
@@ -974,4 +995,4 @@ button.apply-filters {
   display: none;
 }
 
-/* 864 till 13/08/2024 */
+/* 995 till 13/08/2024 */
