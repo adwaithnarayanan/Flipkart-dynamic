@@ -5,20 +5,20 @@
 import navbar from "./navbar.js";
 import categoriesTab from "./categoriesTab.js";
 import filterSection from "./filterSection.js";
+import productsSection from "./productsSection.js";
+import viewProduct from "./viewProduct.js";
 
 async function getData() {
-  // const res = await fetch("allproducts.json");
   const res = await fetch("mobiles.json");
   const data = await res.json();
 
-  // console.log(data.products);
-  // console.log(data);
-
   navbar.render(data.nav);
   categoriesTab.render(data.categoriesTab);
-  filterSection.render(data.products);
-
-  // return data;
+  filterSection.render(data);
+  productsSection.render(data.products);
+  viewProduct.render(data.products);
+  productsSection.eventListener();
+  filterSection.eventListeners();
 }
 
 getData();

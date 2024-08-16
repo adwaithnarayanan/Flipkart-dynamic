@@ -1,17 +1,32 @@
+"use strict";
+
+import viewProduct from "./viewProduct.js";
+
 class FilterSection {
   _minPrice = [0, 10000, 15000, 20000, 30000];
   _maxPrice = [10000, 15000, 20000, 30000, 35000];
 
-  checkedBrands = [];
   brands = [];
+  rams = [];
+  filteredPrice = [];
+  discounts = [50, 40, 30, 20, 10];
 
   _data;
-  render(data) {
-    this._data = data;
+  _minValue = 0;
+  _maxValue = 35000;
+  checkedBrands = [];
 
-    console.log(this._data);
+  mobiles = [];
+
+  render(data) {
+    this._data = data.products;
+
+    data.products.productItems.forEach((item) => {
+      this.mobiles.push(item);
+    });
 
     this._addBrandsToArray();
+    this._addRAMToArray();
 
     this._renderFilterArea();
   }
@@ -21,6 +36,13 @@ class FilterSection {
       if (!this.brands.includes(item.brand)) {
         this.brands.push(item.brand);
       }
+    });
+  }
+
+  _addRAMToArray() {
+    this._data.productItems.forEach((item) => {
+      if (item.ram >= 8) item.ram = 8;
+      if (!this.rams.includes(item.ram)) this.rams.push(item.ram);
     });
   }
 
@@ -35,9 +57,12 @@ class FilterSection {
     const categoriesFilter = this._createCategoriesFilter();
     const priceFilter = this._createPriceFilter();
     const brandFilter = this._createBrandFilter();
-    const assuredFillter = this._createAssuredFilter();
+    // const assuredFillter = this._createAssuredFilter();
+    const ratingFilter = this._createRatingFilter();
+    const ramFilter = this._createRamFilter();
+    const discountFilter = this._createDiscountFilter();
 
-    console.log(assuredFillter);
+    // console.log(discountFilter);
 
     //
 
@@ -45,15 +70,19 @@ class FilterSection {
     filterContainer.appendChild(categoriesFilter);
     filterContainer.appendChild(priceFilter);
     filterContainer.appendChild(brandFilter);
+    // filterContainer.appendChild(assuredFillter);
+    filterContainer.appendChild(ratingFilter);
+    filterContainer.appendChild(ramFilter);
+    filterContainer.appendChild(discountFilter);
 
     mainBody.appendChild(filterContainer);
 
     document.body.appendChild(mainBody);
 
-    this._filterValue("POCO");
-    this._filterValue("samsung");
+    // this._filterValue("POCO");
+    // this._filterValue("samsung");
 
-    this._eventListeners();
+    // this._eventListeners();
   }
 
   _createHeadingSection() {
@@ -151,69 +180,6 @@ class FilterSection {
     return filterSection;
   }
 
-  _createBrandFilter() {
-    const filterSection = document.createElement("div");
-    filterSection.classList.add("filter-section");
-
-    const filterSectionHeading = document.createElement("span");
-    filterSectionHeading.classList.add("sub-heading");
-    filterSectionHeading.textContent = "brand";
-
-    filterSection.appendChild(filterSectionHeading);
-
-    const brandSection = document.createElement("div");
-    brandSection.classList.add("brand-section");
-
-    const brandLists = this._createBrandList();
-
-    brandSection.innerHTML = `
-    <div class="clear-checked-brands"><span>✕</span> Clear all</div>
-            <div class="brand-search">
-              <img src="${this._data.searchGray}" alt="" />
-              <input
-                type="text"
-                name="brand"
-                id="search-brand"
-                placeholder="Search Brand"
-              />
-            </div>
-            <div class="brands">
-              
-
-            ${brandLists.outerHTML}
-             
-            </div>
-            <div class="more brand-more"><span>${this.brands.length}</span> more</div>
-          </div>
-    `;
-
-    filterSection.appendChild(brandSection);
-
-    return filterSection;
-  }
-
-  _createBrandList() {
-    const brandNames = document.createElement("ul");
-    brandNames.classList.add("brand-names");
-    brandNames.classList.add("checkbox-list");
-
-    this.brands.every((brand, idx) => {
-      const li = document.createElement("li");
-      li.innerHTML = `
-        <input type="checkbox" name="${brand}" id="${brand}"  />
-        <label for="${brand}">${brand}</label>
-      `;
-
-      brandNames.appendChild(li);
-
-      if (idx >= 6) return false;
-
-      return true;
-    });
-
-    return brandNames;
-  }
-
   _createDropDown(min = 0, max = 35000) {
     let markup = "";
 
@@ -244,7 +210,9 @@ class FilterSection {
             : value[0].toUpperCase() + value.slice(1);
 
         // make the selected min price as default
-        if (this._minPrice[i] === min) option.defaultSelected = true;
+        if (this._minPrice[i] === min) {
+          option.defaultSelected = true;
+        }
 
         selectMinPrice.appendChild(option);
       }
@@ -291,28 +259,130 @@ class FilterSection {
 
     rangeDropdownMax.appendChild(selectMaxPrice);
     markup = markup + rangeDropdownMax.outerHTML;
+
     return markup;
   }
 
-  _filterValue(text) {
+  _createBrandFilter() {
+    const filterSection = document.createElement("div");
+    filterSection.classList.add("filter-section");
+
+    const filterSectionHeading = document.createElement("span");
+    filterSectionHeading.classList.add("sub-heading");
+    filterSectionHeading.textContent = "brand";
+
+    filterSection.appendChild(filterSectionHeading);
+
+    const brandSection = document.createElement("div");
+    brandSection.classList.add("brand-section");
+
+    const brandLists = this._createBrandList();
+
+    brandSection.innerHTML = `
+    <div class="clear-checked-brands hide"><span>✕</span> Clear all</div>
+            <div class="brand-search hide">
+              <img src="${this._data.searchGray}" alt="" />
+              <input
+                type="text"
+                name="brand"
+                id="search-brand"
+                placeholder="Search Brand"
+              />
+            </div>
+            <div class="brands">
+              
+
+            ${brandLists.outerHTML}
+             
+            </div>
+            <div class="moree brand-moree"></div>
+          </div>
+    `;
+
+    // <div class="more brand-more"><span>${this.brands.length}</span> more</div>
+
+    filterSection.appendChild(brandSection);
+
+    return filterSection;
+  }
+
+  _createBrandList() {
+    const brandNames = document.createElement("ul");
+    brandNames.classList.add("brand-names");
+    brandNames.classList.add("checkbox-list");
+
+    this.brands.every((brand, idx) => {
+      const li = document.createElement("li");
+      li.innerHTML = `
+        <input type="checkbox" name="${brand}" id="${brand}"  />
+        <label for="${brand}">${brand}</label>
+      `;
+
+      brandNames.appendChild(li);
+
+      // if (idx >= 6) return false;
+
+      return true;
+    });
+
+    return brandNames;
+  }
+
+  _filterValue(text, id = "") {
+    const filteredContainer = document.querySelector(".filtered");
+    let flag = false;
+    const spans = filteredContainer.querySelectorAll(".filtered-item");
+
+    if (spans.length > 0) {
+      for (let i = 0; i < spans.length; i++) {
+        if (spans[i].id === "price" && id === "price") {
+          spans[i].innerHTML = "";
+          spans[i].innerHTML = `
+          <span class="close">✕</span>
+              <span class="filter">${text}</span>`;
+
+          return;
+        } else if (spans[i].id === id) {
+          flag = true;
+          break;
+        }
+      }
+    }
+
+    if (flag) return;
+
+    if (id === "price") console.log("price idd");
+
     const filteredItem = document.createElement("span");
     filteredItem.classList.add("filtered-item");
+    filteredItem.id = id;
     filteredItem.innerHTML = `
               <span class="close">✕</span>
               <span class="filter">${text}</span>
             `;
 
-    document.querySelector(".filtered").appendChild(filteredItem);
+    filteredContainer.appendChild(filteredItem);
 
     // Event Listener for deleting filter value
     filteredItem.addEventListener("mouseover", () => {
       filteredItem.querySelector(".filter").style.textDecoration =
         "line-through";
     });
+
     filteredItem.addEventListener("mouseleave", () => {
       filteredItem.querySelector(".filter").style.textDecoration = "none";
     });
+
     filteredItem.addEventListener("click", () => {
+      if (filteredItem.id === "price") {
+        this._resetPriceFilter();
+      } else {
+        // uncheck the checked item when removed from filterview
+        document.querySelector(`input#${filteredItem.id}`).checked = false;
+
+        this._checkForCheckedBrands();
+      }
+
       filteredItem.remove();
     });
   }
@@ -389,39 +459,128 @@ class FilterSection {
     const filterSection = document.createElement("div");
     filterSection.classList.add("filter-section");
     filterSection.innerHTML = `
-    <span class="sub-heading assured">
+        <span class="sub-heading assured">
             <input type="checkbox" name="f-assured" id="f-assured" />
             <label for="f-assured"
-              ><img src="assets/icons/assured.png" alt=""
+              ><img src="${this._data.assured}" alt="assured"
             /></label>
           </span>
-
-`;
+    `;
 
     return filterSection;
   }
 
-  _eventListeners() {
+  _createRatingFilter() {
+    const filterSection = document.createElement("div");
+    filterSection.classList.add("filter-section");
+    filterSection.innerHTML = `
+        <span class="sub-heading">customer ratings</span>
+          <ul class="customer-ratings checkbox-list">
+            <li>
+              <input type="checkbox" name="rating-4" id="rating-4" />
+              <label for="rating-4">4★ & above</label>
+            </li>
+            <li>
+              <input type="checkbox" name="rating-3" id="rating-3" />
+              <label for="rating-3">3★ & above</label>
+            </li>
+          </ul>
+    `;
+
+    return filterSection;
+  }
+
+  _createRamFilter() {
+    const filterSection = document.createElement("div");
+    filterSection.classList.add("filter-section");
+
+    const heading = document.createElement("span");
+    heading.classList.add("sub-heading");
+    heading.textContent = "ram";
+
+    const div = document.createElement("div");
+    div.classList.add("ram-lists");
+
+    const element = this._createRamLists();
+
+    // div.appendChild(element);
+
+    filterSection.appendChild(heading);
+    filterSection.appendChild(div);
+    filterSection.appendChild(element);
+
+    return filterSection;
+  }
+
+  _createRamLists() {
+    const ul = document.createElement("ul");
+    ul.classList.add("ram-lists");
+    ul.classList.add("checkbox-list");
+
+    this.rams.forEach((ram) => {
+      if (ram >= 8) ram = "8 GB and Above";
+      if (ram <= 1) ram = "1 GB and Below";
+
+      //   const ramValue = isNaN(ram) ? ram : ram + "gb";
+      const li = document.createElement("li");
+
+      li.innerHTML = `
+        <input type="checkbox" name="${isNaN(ram) ? ram : ram + "gb"}" id="${
+        isNaN(ram) ? ram : ram + "gb"
+      }" />
+        <label for="${isNaN(ram) ? ram : ram + "gb"}">${
+        isNaN(ram) ? ram : ram + " gb".toUpperCase()
+      }</label>
+        `;
+
+      ul.appendChild(li);
+    });
+
+    return ul;
+  }
+
+  _createDiscountFilter() {
+    const filterSection = document.createElement("div");
+    filterSection.classList.add("filter-section");
+
+    const heading = document.createElement("span");
+    heading.classList.add("sub-heading");
+    heading.textContent = "Discount";
+    filterSection.appendChild(heading);
+
+    const ul = document.createElement("ul");
+    ul.classList.add("discount-lists");
+    ul.classList.add("checkbox-list");
+
+    this.discounts.forEach((discount) => {
+      const li = document.createElement("li");
+      li.innerHTML = `
+            <input type="checkbox" name="${discount}" id="${
+        discount + "ormore"
+      }" />
+            <label for="${discount + "ormore"}">${
+        discount + "% or more"
+      }</label>
+    `;
+
+      ul.appendChild(li);
+    });
+
+    filterSection.appendChild(ul);
+
+    return filterSection;
+  }
+
+  eventListeners() {
     // const filteredEl = document.querySelector(".filtered");
     const filteredItem = document.querySelectorAll(".filtered-item");
-
     const filterClearAll = document.querySelector("#filter-heading-clear");
+    // const brandMore = document.querySelector(".brand-more");
 
-    const brandMore = document.querySelector(".brand-more");
+    const brands = document.querySelectorAll(".brand-names li input");
+    const ratings = document.querySelectorAll(".customer-ratings li input");
 
-    // filteredItem.forEach((item) => {
-    //   item.addEventListener("mouseover", () => {
-    //     console.log(item.closest(".filter"));
-    //     item.querySelector(".filter").style.textDecoration = "line-through";
-    //   });
-    //   item.addEventListener("mouseleave", () => {
-    //     item.querySelector(".filter").style.textDecoration = "none";
-    //     // item.querySelector(".filter").style.color = "red";
-    //   });
-    //   item.addEventListener("click", () => {
-    //     item.remove();
-    //   });
-    // });
+    const dropDowns = document.querySelectorAll(".range-dropdown select");
 
     filterClearAll.addEventListener("click", () => {
       filteredItem.forEach((item) => {
@@ -429,12 +588,154 @@ class FilterSection {
       });
     });
 
-    brandMore.addEventListener("click", () => {
-      this._createMoreBrandSection();
+    // brandMore.addEventListener("click", () => {
+    //   // this._createMoreBrandSection();
+    // });
+
+    dropDowns.forEach((dropdown) => {
+      dropdown.addEventListener("change", (e) => {
+        if (dropdown.id === "min-price")
+          this._minValue = isNaN(e.target.value) ? 0 : Number(e.target.value);
+        else if (dropdown.id === "max-price") {
+          this._maxValue = isNaN(e.target.value)
+            ? 35000
+            : Number(e.target.value);
+        }
+
+        this._updateDropdown(this._minValue, this._maxValue);
+      });
     });
+
+    brands.forEach((brand) => {
+      brand.addEventListener("click", (e) => {
+        if (e.target.checked) {
+          this._filterValue(e.target.id, e.target.id);
+          // return false;
+        } else if (!e.target.checked) {
+          this._clearFromFiltered(e.target.id);
+          // return false;
+        }
+
+        this._checkForCheckedBrands();
+      });
+    });
+
+    ratings.forEach((rating) => {
+      rating.addEventListener("click", (e) => {
+        const text = e.target.nextElementSibling.textContent;
+
+        if (e.target.checked) this._filterValue(text, e.target.id);
+        else if (!e.target.checked) this._clearFromFiltered(e.target.id);
+      });
+    });
+  }
+
+  _clearFromFiltered(itemID) {
+    const filteredItems = document.querySelectorAll(".filtered .filtered-item");
+
+    filteredItems.forEach((item) => {
+      if (item.id === itemID) item.remove();
+    });
+  }
+
+  _updateDropdown(minValue, maxValue) {
+    const minMaxDropdown = document.querySelector(".min-max-drop");
+    minMaxDropdown.innerHTML = "";
+
+    const element = this._createDropDown(minValue, maxValue);
+    minMaxDropdown.innerHTML = element;
+
+    // console.log(minValue, maxValue);
+
+    const filterText = `${minValue < 10000 ? "Min" : "₹" + minValue}-₹${
+      maxValue > 30000 ? "30000+" : maxValue
+    }`;
+
+    this._filterValue(filterText, "price");
+    this._priceFilter();
+
+    this.eventListeners();
+  }
+
+  _priceFilter() {
+    this.filteredPrice = [];
+    const mobiles = [...this._data.productItems];
+
+    if (this._maxValue > 30000) this._maxValue = 9999999999;
+
+    for (let i = 0; i < mobiles.length; i++) {
+      if (
+        mobiles[i].price >= this._minValue &&
+        mobiles[i].price <= this._maxValue
+      ) {
+        if (this.filteredPrice.includes(mobiles[i].price)) {
+          continue;
+        } else {
+        }
+        this.filteredPrice.push(mobiles[i].price);
+      }
+    }
+
+    console.log(this.filteredPrice);
+
+    this._filterProduct();
+
+    // viewProduct.createProductCard(this.filteredPrice);
+  }
+
+  _checkForCheckedBrands() {
+    const brands = document.querySelectorAll(".brand-names li input");
+
+    this.checkedBrands = [];
+    brands.forEach((brand) => {
+      if (brand.checked) {
+        this.checkedBrands.push(brand.id);
+      }
+    });
+
+    console.log(this.checkedBrands);
+
+    this._filterProduct();
+  }
+
+  _filterProduct() {
+    // console.log(this._data.productItems);
+    const mobiles = [...this._data.productItems];
+
+    if (this.checkedBrands.length < 1) {
+      mobiles.forEach((mobile) => {
+        this.checkedBrands.push(mobile.brand);
+      });
+    }
+
+    if (this.filteredPrice.length < 1) {
+      mobiles.forEach((mobile) => {
+        this.filteredPrice.push(mobile.price);
+      });
+    }
+
+    let filteredProducts = [];
+
+    filteredProducts = mobiles.filter((mobile, idx) => {
+      if (
+        this.checkedBrands.includes(mobile.brand) &&
+        this.filteredPrice.includes(mobile.price)
+      )
+        return mobile;
+    });
+
+    console.log(filteredProducts);
+
+    viewProduct.createProductCard(filteredProducts);
+  }
+
+  _resetPriceFilter() {
+    this._minValue = 0;
+    this._maxValue = 35000;
+    this._updateDropdown();
   }
 }
 
 export default new FilterSection();
 
-// 252 ---- 13/08/24
+// 575 ---- 14/08/24
