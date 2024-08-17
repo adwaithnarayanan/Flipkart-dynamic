@@ -10,8 +10,6 @@ class ProductSection {
 
     this._createProductSections();
     viewProduct.currentPageNumber = this._pageNumber;
-
-    // createMobileViews()
   }
 
   _createProductSections() {
@@ -45,7 +43,7 @@ class ProductSection {
             <li id="popularity">Popularity</li>
             <li id="low-to-high">Price -- Low to High</li>
             <li id="high-to-low">Price -- High to Low</li>
-            <li id="newest">Newest First</li>
+            <li id="newest" class="hide">Newest First</li>
         </ul>
     </div>
     

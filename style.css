@@ -987,6 +987,30 @@ button.apply-filters {
   font-family: var(--font-semiBold);
 }
 
+.error-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.error-message img {
+  width: 286px;
+  height: 184px;
+}
+
+.error-message span {
+  margin: 20px 0 10px;
+  font-size: 25.5px;
+  font-family: var(--font-semiBold);
+}
+
+.error-message span:last-child {
+  padding: 0 0 8xp;
+  color: #878787;
+  font-size: 20px;
+}
+
 /*  */
 /*  */
 /*  */

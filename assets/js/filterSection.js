@@ -15,6 +15,12 @@ class FilterSection {
   _minValue = 0;
   _maxValue = 35000;
   checkedBrands = [];
+  checkedRatings = 0;
+  checkedRAMs = [];
+  checkedDiscount = 0;
+
+  sortItems;
+  activeSort = "relevance";
 
   mobiles = [];
 
@@ -62,8 +68,6 @@ class FilterSection {
     const ramFilter = this._createRamFilter();
     const discountFilter = this._createDiscountFilter();
 
-    // console.log(discountFilter);
-
     //
 
     filterContainer.appendChild(headingArea);
@@ -78,11 +82,6 @@ class FilterSection {
     mainBody.appendChild(filterContainer);
 
     document.body.appendChild(mainBody);
-
-    // this._filterValue("POCO");
-    // this._filterValue("samsung");
-
-    // this._eventListeners();
   }
 
   _createHeadingSection() {
@@ -197,11 +196,8 @@ class FilterSection {
       if (this._minPrice[i] >= max) break;
       else {
         const option = document.createElement("option");
-        // option.selected = false;
 
         const value = this._minPrice[i] === 0 ? "min" : this._minPrice[i];
-
-        // option.selected = true;
 
         option.value = value;
         option.textContent =
@@ -320,8 +316,6 @@ class FilterSection {
 
       brandNames.appendChild(li);
 
-      // if (idx >= 6) return false;
-
       return true;
     });
 
@@ -351,8 +345,6 @@ class FilterSection {
 
     if (flag) return;
 
-    if (id === "price") console.log("price idd");
-
     const filteredItem = document.createElement("span");
     filteredItem.classList.add("filtered-item");
     filteredItem.id = id;
@@ -381,6 +373,9 @@ class FilterSection {
         document.querySelector(`input#${filteredItem.id}`).checked = false;
 
         this._checkForCheckedBrands();
+        this._checkForCheckedRatings();
+        this._checkForCheckedRAMs();
+        this._checkForCheckedRatings();
       }
 
       filteredItem.remove();
@@ -503,8 +498,6 @@ class FilterSection {
 
     const element = this._createRamLists();
 
-    // div.appendChild(element);
-
     filterSection.appendChild(heading);
     filterSection.appendChild(div);
     filterSection.appendChild(element);
@@ -521,12 +514,11 @@ class FilterSection {
       if (ram >= 8) ram = "8 GB and Above";
       if (ram <= 1) ram = "1 GB and Below";
 
-      //   const ramValue = isNaN(ram) ? ram : ram + "gb";
       const li = document.createElement("li");
 
       li.innerHTML = `
         <input type="checkbox" name="${isNaN(ram) ? ram : ram + "gb"}" id="${
-        isNaN(ram) ? ram : ram + "gb"
+        isNaN(ram) ? "gb" + ram.split(" ").join("") : "gb" + ram
       }" />
         <label for="${isNaN(ram) ? ram : ram + "gb"}">${
         isNaN(ram) ? ram : ram + " gb".toUpperCase()
@@ -556,7 +548,7 @@ class FilterSection {
       const li = document.createElement("li");
       li.innerHTML = `
             <input type="checkbox" name="${discount}" id="${
-        discount + "ormore"
+        "more" + discount
       }" />
             <label for="${discount + "ormore"}">${
         discount + "% or more"
@@ -571,26 +563,45 @@ class FilterSection {
     return filterSection;
   }
 
+  _clearAllAppliedFilters() {
+    this._minValue = 0;
+    this._maxValue = 35000;
+    this.checkedBrands = [];
+    this.checkedRatings = 0;
+    this.checkedRAMs = [];
+    this.checkedDiscount = 0;
+
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+
+    checkboxes.forEach((checkbox) => {
+      checkbox.checked = false;
+    });
+    this._updateDropdown(this._minValue, this._maxValue);
+    this._filterProduct();
+
+    document.querySelector(".filtered-item#price").remove();
+  }
+
   eventListeners() {
-    // const filteredEl = document.querySelector(".filtered");
-    const filteredItem = document.querySelectorAll(".filtered-item");
+    let filteredItem;
     const filterClearAll = document.querySelector("#filter-heading-clear");
-    // const brandMore = document.querySelector(".brand-more");
 
     const brands = document.querySelectorAll(".brand-names li input");
     const ratings = document.querySelectorAll(".customer-ratings li input");
+    const rams = document.querySelectorAll(".ram-lists li input");
+    const discounts = document.querySelectorAll(".discount-lists li input");
 
     const dropDowns = document.querySelectorAll(".range-dropdown select");
 
     filterClearAll.addEventListener("click", () => {
+      filteredItem = document.querySelectorAll(".filtered .filtered-item");
+
+      this._clearAllAppliedFilters();
+
       filteredItem.forEach((item) => {
         item.remove();
       });
     });
-
-    // brandMore.addEventListener("click", () => {
-    //   // this._createMoreBrandSection();
-    // });
 
     dropDowns.forEach((dropdown) => {
       dropdown.addEventListener("change", (e) => {
@@ -608,13 +619,8 @@ class FilterSection {
 
     brands.forEach((brand) => {
       brand.addEventListener("click", (e) => {
-        if (e.target.checked) {
-          this._filterValue(e.target.id, e.target.id);
-          // return false;
-        } else if (!e.target.checked) {
-          this._clearFromFiltered(e.target.id);
-          // return false;
-        }
+        if (e.target.checked) this._filterValue(e.target.id, e.target.id);
+        else if (!e.target.checked) this._clearFromFiltered(e.target.id);
 
         this._checkForCheckedBrands();
       });
@@ -626,7 +632,48 @@ class FilterSection {
 
         if (e.target.checked) this._filterValue(text, e.target.id);
         else if (!e.target.checked) this._clearFromFiltered(e.target.id);
+
+        this._checkForCheckedRatings();
       });
+    });
+
+    rams.forEach((ram) => {
+      ram.addEventListener("click", (e) => {
+        const text = ram.nextElementSibling.textContent;
+
+        if (e.target.checked) this._filterValue(text, ram.id);
+        else if (!e.target.checked) this._clearFromFiltered(e.target.id);
+
+        this._checkForCheckedRAMs();
+      });
+    });
+
+    discounts.forEach((discount) => {
+      discount.addEventListener("click", (e) => {
+        const text = discount.nextElementSibling.textContent;
+        if (e.target.checked) this._filterValue(text, e.target.id);
+        else if (!e.target.checked) this._clearFromFiltered(e.target.id);
+
+        this._checkForCheckedDiscounts();
+      });
+    });
+
+    this.sortItems = document.querySelectorAll(".sort-values li");
+    this.sortItems.forEach((item) => {
+      item.addEventListener("click", () => {
+        this._removeActiveSort();
+        item.classList.add("active-sort");
+
+        this.activeSort = item.id;
+
+        this._filterProduct();
+      });
+    });
+  }
+
+  _removeActiveSort() {
+    this.sortItems.forEach((item) => {
+      item.classList.remove("active-sort");
     });
   }
 
@@ -644,8 +691,6 @@ class FilterSection {
 
     const element = this._createDropDown(minValue, maxValue);
     minMaxDropdown.innerHTML = element;
-
-    // console.log(minValue, maxValue);
 
     const filterText = `${minValue < 10000 ? "Min" : "₹" + minValue}-₹${
       maxValue > 30000 ? "30000+" : maxValue
@@ -676,11 +721,7 @@ class FilterSection {
       }
     }
 
-    console.log(this.filteredPrice);
-
     this._filterProduct();
-
-    // viewProduct.createProductCard(this.filteredPrice);
   }
 
   _checkForCheckedBrands() {
@@ -693,13 +734,63 @@ class FilterSection {
       }
     });
 
-    console.log(this.checkedBrands);
+    this._filterProduct();
+  }
+
+  _checkForCheckedRatings() {
+    const ratings = document.querySelectorAll(".customer-ratings li input");
+    this.checkedRatings = 0;
+
+    ratings.forEach((rating) => {
+      if (rating.checked) {
+        if (this.checkedRatings === 0)
+          this.checkedRatings = Number(rating.id.slice(-1));
+        else if (this.checkedRatings > Number(rating.id.slice(-1))) {
+          this.checkedRatings = Number(rating.id.slice(-1));
+        }
+      }
+    });
+
+    this._filterProduct();
+  }
+
+  _checkForCheckedRAMs() {
+    const rams = document.querySelectorAll(".ram-lists li input");
+    this.checkedRAMs = [];
+
+    rams.forEach((ram) => {
+      if (ram.checked) {
+        let ramValue = isNaN(Number(ram.name.slice(0, 1)))
+          ? ram.name.slice(0, 1)
+          : Number(ram.name.slice(0, 1));
+        if (ramValue >= 8) {
+          ramValue = 8;
+        } else if (ramValue === 1) ramValue = -10;
+
+        this.checkedRAMs.push(ramValue);
+      }
+    });
+
+    this._filterProduct();
+  }
+
+  _checkForCheckedDiscounts() {
+    const discounts = document.querySelectorAll(".discount-lists li input");
+    this.checkedDiscount = 0;
+
+    discounts.forEach((discount) => {
+      if (discount.checked) {
+        if (this.checkedDiscount === 0)
+          this.checkedDiscount = Number(discount.name);
+        else if (this.checkedDiscount > Number(discount.name))
+          this.checkedDiscount = Number(discount.name);
+      }
+    });
 
     this._filterProduct();
   }
 
   _filterProduct() {
-    // console.log(this._data.productItems);
     const mobiles = [...this._data.productItems];
 
     if (this.checkedBrands.length < 1) {
@@ -714,19 +805,44 @@ class FilterSection {
       });
     }
 
+    if (this.checkedRAMs.length < 1) {
+      mobiles.forEach((mobile) => {
+        this.checkedRAMs.push(mobile.ram);
+      });
+    }
+
     let filteredProducts = [];
 
-    filteredProducts = mobiles.filter((mobile, idx) => {
+    filteredProducts = mobiles.filter((mobile) => {
+      const off = Math.floor(100 - (mobile.price / mobile.mrp) * 100);
+
       if (
         this.checkedBrands.includes(mobile.brand) &&
-        this.filteredPrice.includes(mobile.price)
+        this.filteredPrice.includes(mobile.price) &&
+        mobile.rating.average >= this.checkedRatings &&
+        this._isValidRam(mobile.ram) &&
+        off >= this.checkedDiscount
       )
         return mobile;
     });
 
-    console.log(filteredProducts);
+    if (this.activeSort === "popularity")
+      filteredProducts.sort((a, b) => b.rating.average - a.rating.average);
+    else if (this.activeSort === "low-to-high")
+      filteredProducts.sort((a, b) => a.price - b.price);
+    else if (this.activeSort === "high-to-low")
+      filteredProducts.sort((a, b) => b.price - a.price);
 
     viewProduct.createProductCard(filteredProducts);
+  }
+
+  _isValidRam(ram) {
+    for (let i = 0; i <= this.checkedRAMs.length; i++) {
+      if (ram === this.checkedRAMs[i]) return true;
+      else if (this.checkedRAMs[i] === 8 && ram >= 8) return true;
+      else if (this.checkedRAMs[i] === 1 && ram <= 1) return true;
+    }
+    return false;
   }
 
   _resetPriceFilter() {

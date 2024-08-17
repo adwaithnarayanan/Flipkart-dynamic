@@ -34,6 +34,11 @@
     "searchGray": "assets/icons/search-gray.svg",
     "allProductsButtons": ["clear all", "apply filters"],
     "assured": "assets/icons/assured.png",
+    "errorMessage": [
+      "Sorry, no results found!",
+      "Please try searching for something else"
+    ],
+    "error": "assets/pictures/error.png",
     "productItems": [
       {
         "brand": "Apple",
@@ -50,7 +55,7 @@
         "mrp": 79600,
         "price": 60478,
         "rating": {
-          "average": 4.6,
+          "average": 2,
           "count": 77507,
           "reviewCount": 4339
         },
@@ -72,7 +77,7 @@
         "mrp": 17999,
         "price": 13999,
         "rating": {
-          "average": 4.2,
+          "average": 1,
           "count": 22135,
           "reviewCount": 1204
         },
@@ -94,7 +99,7 @@
         "mrp": 27999,
         "price": 24999,
         "rating": {
-          "average": 4.5,
+          "average": 3,
           "count": 25112,
           "reviewCount": 1767
         },

@@ -13,8 +13,14 @@ class ViewProducts {
   _minIndex;
   _maxIndex;
 
+  _errorMessage = [];
+  _errorImg = "";
+
   render(data) {
     this._data = data.productItems;
+
+    this._errorMessage = [...data.errorMessage];
+    this._errorImg = data.error;
 
     this._assuredIcon = data.assured;
 
@@ -28,6 +34,27 @@ class ViewProducts {
 
     const productsList = document.querySelector(".products-list");
     productsList.innerHTML = "";
+
+    if (this._newSortedArray.length < 1) {
+      const div = document.createElement("div");
+      div.classList.add("error-message");
+
+      const img = document.createElement("img");
+      img.src = this._errorImg;
+
+      div.appendChild(img);
+
+      this._errorMessage.forEach((message) => {
+        const span = document.createElement("span");
+        span.textContent = message;
+
+        div.appendChild(span);
+      });
+
+      productsList.appendChild(div);
+
+      return;
+    }
 
     const ulEl = document.createElement("ul");
     ulEl.classList.add("products-view");
@@ -119,8 +146,6 @@ class ViewProducts {
   }
 
   _createHighlights(highlights) {
-    // console.log("highligts ", highlights);
-
     const ul = document.createElement("ul");
     ul.classList.add("product-spec");
 
@@ -138,12 +163,7 @@ class ViewProducts {
     const headerPageNumber = document.querySelector(".results-text");
 
     this._calculatePageItems();
-    // console.log(
-    //   "pageNumber",
-    //   this.currentPageNumber,
-    //   "total  ",
-    //   this._newSortedArray.length
-    // );
+
     headerPageNumber.textContent = `Showing ${this._pageMin} - ${this._pageMax} of ${this._newSortedArray.length} results for "smartphones"`;
   }
 
