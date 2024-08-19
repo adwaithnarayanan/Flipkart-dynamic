@@ -14,9 +14,14 @@ async function getData() {
 
   navbar.render(data.nav);
   categoriesTab.render(data.categoriesTab);
-  filterSection.render(data.products);
+  filterSection.render(data);
+  productsSection.render(data.products);
+  viewProduct.render(data.products);
+  productsSection.eventListener();
+  filterSection.eventListeners();
 
-  // return data;
+  viewProduct.eventlisteners();
+  viewProduct.pageEventlisteners();
 }
 
 getData();

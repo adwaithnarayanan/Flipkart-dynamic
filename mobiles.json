@@ -33,6 +33,12 @@
     "arrowGray": "assets/icons/arrow-gray.svg",
     "searchGray": "assets/icons/search-gray.svg",
     "allProductsButtons": ["clear all", "apply filters"],
+    "assured": "assets/icons/assured.png",
+    "errorMessage": [
+      "Sorry, no results found!",
+      "Please try searching for something else"
+    ],
+    "error": "assets/pictures/error.png",
     "productItems": [
       {
         "brand": "Apple",
