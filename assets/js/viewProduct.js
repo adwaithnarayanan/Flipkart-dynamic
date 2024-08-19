@@ -150,11 +150,24 @@ class ViewProducts {
   
           */
 
+        li.addEventListener("mouseenter", this._mouseEnterOnProduct);
+        li.addEventListener("mouseleave", this._mouseLeaveOnProduct);
+
         ulEl.appendChild(li);
       }
     });
 
     productsList.appendChild(ulEl);
+  }
+
+  _mouseEnterOnProduct(e) {
+    const title = e.target.querySelector(".product-description .title");
+    title.style.color = "var(--font-color-two)";
+  }
+
+  _mouseLeaveOnProduct(e) {
+    const title = e.target.querySelector(".product-description .title");
+    title.style.color = "var(--font-color-one)";
   }
 
   _createHighlights(highlights) {
