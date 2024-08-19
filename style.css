@@ -769,6 +769,7 @@ button.apply-filters {
 /* _____---------- Product card ----------_____ */
 
 .products-view {
+  padding: 24px 0 30px 24px;
 }
 
 .products-view li {
@@ -790,14 +791,6 @@ button.apply-filters {
 
 .product-img .img {
   width: 200px;
-  height: 200px;
-  display: flex;
-}
-
-.product-img .img img {
-  max-height: 100%;
-  max-width: 100%;
-  margin: 0 auto;
 }
 
 .add-to-compare {
@@ -817,8 +810,6 @@ button.apply-filters {
   position: absolute;
   top: 2px;
   right: -8px;
-  display: flex;
-  height: fit-content;
 }
 
 .wishlist img {

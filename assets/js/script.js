@@ -14,14 +14,9 @@ async function getData() {
 
   navbar.render(data.nav);
   categoriesTab.render(data.categoriesTab);
-  filterSection.render(data);
-  productsSection.render(data.products);
-  viewProduct.render(data.products);
-  productsSection.eventListener();
-  filterSection.eventListeners();
+  filterSection.render(data.products);
 
-  viewProduct.eventlisteners();
-  viewProduct.pageEventlisteners();
+  // return data;
 }
 
 getData();
