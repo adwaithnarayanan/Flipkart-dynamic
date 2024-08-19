@@ -5,6 +5,12 @@ class ProductSection {
 
   _pageNumber = 1;
 
+  _paginationBtns;
+  _totalPages = 1;
+  _paginationSection;
+
+  _pages;
+
   render(data) {
     this._data = data;
 
@@ -48,19 +54,6 @@ class ProductSection {
     </div>
     
     `;
-    /*
-    // Sorting section can include if needed
-    <div class="sort-by">
-        <span class="sort-by-head">Sort By</span>
-        <ul class="sort-values">
-            <li class="active-sort">Relevance</li>
-            <li>Popularity</li>
-            <li>Price -- Low to High</li>
-            <li>Price -- High to Low</li>
-            <li>Newest First</li>
-        </ul>
-    </div>
-    */
 
     const productsLists = document.createElement("div");
     productsLists.classList.add("products-list");
@@ -70,22 +63,24 @@ class ProductSection {
 
     const pagination = this._createPaginationSection();
 
-    // console.log(pagination);
-
     productSectionContainer.appendChild(pagination);
 
     document
       .querySelector(".main-section")
       .appendChild(productSectionContainer);
+
+    viewProduct.hideButtons();
   }
 
   _createPaginationSection() {
-    // console.log(this._pageNumber);
+    const paginationContainer = document.createElement("div");
+    paginationContainer.classList.add("pagination-section");
 
-    const paginationContainer = document.createElement("ul");
-    paginationContainer.classList.add("pagination");
-
-    // const ul = document.createElement("ul");
+    paginationContainer.innerHTML = `
+      <button id="prev" class='prev-page hide'>Previous</button>
+      <ul class='pagination'></ul>
+      <button id="next" class='next-page'>Next</button>
+    `;
 
     return paginationContainer;
   }
@@ -106,4 +101,4 @@ class ProductSection {
 
 export default new ProductSection();
 
-//  90 -- till 14/08/2024
+//  107 -- till 16/08/2024

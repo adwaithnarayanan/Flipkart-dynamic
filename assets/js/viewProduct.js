@@ -10,11 +10,21 @@ class ViewProducts {
   _pageMax;
 
   // MAX and  MIN index values
-  _minIndex;
-  _maxIndex;
+  _minIndex = 0;
+  _maxIndex = 23;
 
   _errorMessage = [];
   _errorImg = "";
+
+  totalPages = 0;
+
+  _prevBtn;
+  _nextBtn;
+  _pages;
+  _paginationBtns;
+  _paginationSection;
+
+  initialView = true;
 
   render(data) {
     this._data = data.productItems;
@@ -56,18 +66,21 @@ class ViewProducts {
       return;
     }
 
+    this.changeHeaderPageNumber(true);
+
     const ulEl = document.createElement("ul");
     ulEl.classList.add("products-view");
 
     mobileData.forEach((mobile, idx) => {
-      const li = document.createElement("li");
+      if (idx >= this._minIndex && idx <= this._maxIndex) {
+        const li = document.createElement("li");
 
-      const off = Math.floor(100 - (mobile.price / mobile.mrp) * 100);
-      const assuredIcon = `<img src="${this._assuredIcon}" alt="" />`;
+        const off = Math.floor(100 - (mobile.price / mobile.mrp) * 100);
+        const assuredIcon = `<img src="${this._assuredIcon}" alt="" />`;
 
-      const highlights = this._createHighlights(mobile.highlights);
+        const highlights = this._createHighlights(mobile.highlights);
 
-      li.innerHTML = `
+        li.innerHTML = `
 
         <div class="product-card">
               <div class="product-img">
@@ -98,8 +111,8 @@ class ViewProducts {
                     </span>
                     <span class="rating-count">
                       ${mobile.rating.count} Ratings & ${
-        mobile.rating.reviewCount
-      } Reviews
+          mobile.rating.reviewCount
+        } Reviews
                     </span>
                   </div>
 
@@ -128,7 +141,7 @@ class ViewProducts {
 
         `;
 
-      /*
+        /*
 
         <span class="discount-offer">Top Discount of the Sale</span>
         <span class="exchange-offer">
@@ -137,12 +150,11 @@ class ViewProducts {
 
         */
 
-      ulEl.appendChild(li);
+        ulEl.appendChild(li);
+      }
     });
 
     productsList.appendChild(ulEl);
-
-    this.changeHeaderPageNumber();
   }
 
   _createHighlights(highlights) {
@@ -165,12 +177,15 @@ class ViewProducts {
     this._calculatePageItems();
 
     headerPageNumber.textContent = `Showing ${this._pageMin} - ${this._pageMax} of ${this._newSortedArray.length} results for "smartphones"`;
+
+    if (this.initialView) this.createPages();
   }
 
   _calculatePageItems() {
+    if (this.initialView) this._resetPagination();
     this._pageMax = this.currentPageNumber * this._productsInPage;
 
-    this._pageMin = this._pageMax - 24 + 1;
+    this._pageMin = this._pageMax - this._productsInPage + 1;
 
     if (this._pageMax > this._newSortedArray.length)
       this._pageMax = this._newSortedArray.length;
@@ -179,11 +194,107 @@ class ViewProducts {
     this._maxIndex = this._pageMax - 1;
   }
 
+  _resetPagination() {
+    this.currentPageNumber = 1;
+  }
+
   createPages() {
     const paginationEl = document.querySelector(".pagination");
+
+    paginationEl.innerHTML = "";
+
+    this.totalPages = Math.ceil(
+      this._newSortedArray.length / this._productsInPage
+    );
+
+    this.hideButtons();
+    if (this.totalPages === 1) {
+      return;
+    }
+
+    for (let i = 1; i <= this.totalPages; i++) {
+      const li = document.createElement("li");
+
+      if (i === this.currentPageNumber) li.classList.add("active-page");
+      li.textContent = i;
+
+      paginationEl.appendChild(li);
+    }
+  }
+
+  eventlisteners() {
+    this._paginationSection = document.querySelector(".pagination-section");
+    this._pages = document.querySelectorAll(".pagination li");
+    this._paginationBtns = this._paginationSection.querySelectorAll("button");
+
+    this._paginationBtns.forEach((btn) => {
+      btn.addEventListener("click", (e) => {
+        if (e.target.id === "prev") this.currentPageNumber--;
+        else if (e.target.id == "next") this.currentPageNumber++;
+
+        if (this.currentPageNumber < 1) this.currentPageNumber = 1;
+        else if (this.currentPageNumber > this.totalPages) {
+          this.currentPageNumber = this.totalPages;
+        }
+
+        this._buttonCommonFunCalls();
+        console.log(this._pages[this.currentPageNumber - 1]);
+        this._pages[this.currentPageNumber - 1].classList.add("active-page");
+      });
+    });
+  }
+
+  pageEventlisteners() {
+    this._pages = document.querySelectorAll(".pagination li");
+
+    this._pages.forEach((page) => {
+      page.addEventListener("click", () => {
+        let newPage = Number(page.textContent);
+
+        this.currentPageNumber = newPage;
+        this._buttonCommonFunCalls();
+
+        page.classList.add("active-page");
+      });
+    });
+  }
+
+  _buttonCommonFunCalls() {
+    this._removeActivePage();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+    this.hideButtons();
+    this.initialView = false;
+    this.createProductCard(this._newSortedArray);
+  }
+
+  _removeActivePage() {
+    this._pages.forEach((page) => {
+      page.classList.remove("active-page");
+    });
+  }
+
+  hideButtons() {
+    this._prevBtn = document.querySelector(".prev-page");
+    this._nextBtn = document.querySelector(".next-page");
+
+    this._paginationSection = document.querySelector(".pagination-section");
+
+    if (this.totalPages === 1) this._paginationSection.classList.add("hide");
+    else this._paginationSection.classList.remove("hide");
+
+    if (this.currentPageNumber === 1) {
+      this._prevBtn.classList.add("hide");
+      this._nextBtn.classList.remove("hide");
+    } else if (this.currentPageNumber === this.totalPages) {
+      this._nextBtn.classList.add("hide");
+      this._prevBtn.classList.remove("hide");
+    } else {
+      this._prevBtn.classList.remove("hide");
+      this._nextBtn.classList.remove("hide");
+    }
   }
 }
 
 export default new ViewProducts();
 
-//  125 -- till 14/08/2024
+//  187 -- till 16/08/2024

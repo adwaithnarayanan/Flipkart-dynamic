@@ -1,6 +1,7 @@
 "use strict";
 
 import viewProduct from "./viewProduct.js";
+import productsSection from "./productsSection.js";
 
 class FilterSection {
   _minPrice = [0, 10000, 15000, 20000, 30000];
@@ -63,7 +64,6 @@ class FilterSection {
     const categoriesFilter = this._createCategoriesFilter();
     const priceFilter = this._createPriceFilter();
     const brandFilter = this._createBrandFilter();
-    // const assuredFillter = this._createAssuredFilter();
     const ratingFilter = this._createRatingFilter();
     const ramFilter = this._createRamFilter();
     const discountFilter = this._createDiscountFilter();
@@ -74,7 +74,6 @@ class FilterSection {
     filterContainer.appendChild(categoriesFilter);
     filterContainer.appendChild(priceFilter);
     filterContainer.appendChild(brandFilter);
-    // filterContainer.appendChild(assuredFillter);
     filterContainer.appendChild(ratingFilter);
     filterContainer.appendChild(ramFilter);
     filterContainer.appendChild(discountFilter);
@@ -763,9 +762,8 @@ class FilterSection {
         let ramValue = isNaN(Number(ram.name.slice(0, 1)))
           ? ram.name.slice(0, 1)
           : Number(ram.name.slice(0, 1));
-        if (ramValue >= 8) {
-          ramValue = 8;
-        } else if (ramValue === 1) ramValue = -10;
+        if (ramValue >= 8) ramValue = 8;
+        // } else if (ramValue === 1) ramValue = -10;
 
         this.checkedRAMs.push(ramValue);
       }
@@ -833,7 +831,10 @@ class FilterSection {
     else if (this.activeSort === "high-to-low")
       filteredProducts.sort((a, b) => b.price - a.price);
 
+    viewProduct.initialView = true;
     viewProduct.createProductCard(filteredProducts);
+    productsSection.eventListener();
+    viewProduct.pageEventlisteners();
   }
 
   _isValidRam(ram) {
@@ -854,4 +855,4 @@ class FilterSection {
 
 export default new FilterSection();
 
-// 575 ---- 14/08/24
+// 855 ---- 16/08/24

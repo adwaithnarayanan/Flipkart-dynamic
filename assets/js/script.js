@@ -19,6 +19,9 @@ async function getData() {
   viewProduct.render(data.products);
   productsSection.eventListener();
   filterSection.eventListeners();
+
+  viewProduct.eventlisteners();
+  viewProduct.pageEventlisteners();
 }
 
 getData();
