@@ -189,7 +189,7 @@ class ViewProducts {
 
     this._calculatePageItems();
 
-    headerPageNumber.textContent = `Showing ${this._pageMin} - ${this._pageMax} of ${this._newSortedArray.length} results for "smartphones"`;
+    headerPageNumber.textContent = `Showing ${this._pageMin} - ${this._pageMax} of ${this._newSortedArray.length} result for "smartphones"`;
 
     if (this.initialView) this.createPages();
   }
@@ -262,7 +262,7 @@ class ViewProducts {
 
     this._pages.forEach((page) => {
       page.addEventListener("click", () => {
-        let newPage = Number(page.textContent);
+        const newPage = Number(page.textContent);
 
         this.currentPageNumber = newPage;
         this._buttonCommonFunCalls();
