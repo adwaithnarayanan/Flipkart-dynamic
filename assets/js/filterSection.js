@@ -375,6 +375,7 @@ class FilterSection {
         this._checkForCheckedRatings();
         this._checkForCheckedRAMs();
         this._checkForCheckedRatings();
+        this._checkForCheckedDiscounts();
       }
 
       filteredItem.remove();
