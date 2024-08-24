@@ -2,7 +2,7 @@ class ViewProducts {
   _data;
   _assuredIcon;
   currentPageNumber;
-  _productsInPage = 24;
+  _productsInPage = 10;
   _newSortedArray = [];
 
   // MAX and MIN elements in a page
@@ -62,6 +62,9 @@ class ViewProducts {
       });
 
       productsList.appendChild(div);
+
+      this.initialView = false;
+      this.changeHeaderPageNumber();
 
       return;
     }
@@ -202,6 +205,8 @@ class ViewProducts {
 
     if (this._pageMax > this._newSortedArray.length)
       this._pageMax = this._newSortedArray.length;
+
+    if (this._pageMax === 0) this._pageMin = 0;
 
     this._minIndex = this._pageMin - 1;
     this._maxIndex = this._pageMax - 1;

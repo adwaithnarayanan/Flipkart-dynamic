@@ -1383,5 +1383,37 @@
         "image": "assets/pictures/mobiles/google-pixel-8a-odsidian.webp"
       }
     ]
+  },
+  "footer": {
+    "footerCols": [
+      [
+        "About",
+        "Contact Us",
+        "About Us",
+        "Careers",
+        "Flipkart Stories",
+        "Press",
+        "Corporate Information"
+      ],
+      ["Group Companies", "Myntra", "Cleartrip", "Shopsy"],
+      [
+        "Help",
+        "Payments",
+        "Shipping",
+        "Cancellation & Returns",
+        "FAQ",
+        "Report Infringement"
+      ],
+      [
+        "Consumer Policy",
+        "Cancellation & Returns",
+        "Terms Of Use",
+        "Security",
+        "Privacy",
+        "Sitemap",
+        "Grievence Redressal",
+        "EPR Compilance"
+      ]
+    ]
   }
 }

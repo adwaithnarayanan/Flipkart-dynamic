@@ -53,6 +53,8 @@
 body {
   margin: 0;
   font-family: var(--font-regular), -apple-system, Helvetica, Arial, sans-serif;
+  background-color: var(--body-color);
+  min-width: 1310px;
 }
 
 /*  _____---------- Navbar ----------_____ */
@@ -87,6 +89,7 @@ nav {
 .brand-name {
   display: flex;
   height: fit-content;
+  margin-bottom: 0.5px;
 }
 
 .brand-name img {
@@ -99,19 +102,23 @@ nav {
   display: flex;
   align-items: center;
   margin-top: -1px;
-  margin-right: 1px;
+  margin-right: 2px;
 }
 
 .plus-sub-text {
   color: var(--font-color-plus);
   font-family: var(--font-semiBold-itallic);
   font-weight: 500;
+  /* margin-right: 2px;
+  margin-left: 2px; */
+  /* margin: 0 2px; */
   margin-right: 2px;
-  margin-left: 2px;
+  margin-left: 3px;
 }
 
 .plus-text img {
   width: 10px;
+  margin-bottom: 4px;
 }
 
 .search-bar {
@@ -144,18 +151,20 @@ nav {
   width: 44px;
   cursor: pointer;
   align-items: center;
-  justify-content: center;
-  padding-right: 12px;
+  justify-content: flex-end;
+  padding-right: 14px;
 }
 
 .search-icon img {
   width: 20px;
   height: 20px;
+  margin-top: 2px;
 }
 
 .login {
-  margin: 0 20px;
+  /* margin: 0 20px; */
   background-color: #fff;
+  margin-right: 23px;
 }
 
 .login-text {
@@ -164,6 +173,9 @@ nav {
   font-family: var(--font-semiBold);
   padding: 5px 40px;
   height: 100%;
+  font-size: 15.5px;
+  letter-spacing: 0.05px;
+  border: 1px solid #fff;
 }
 
 .nav-text {
@@ -174,12 +186,14 @@ nav {
   justify-content: flex-end;
   font-family: var(--font-semiBold);
   font-size: 15px;
+  align-items: center;
 }
 
 .nav-text .text {
   letter-spacing: 0.1px;
   font-family: var(--font-semiBold);
   font-weight: 500;
+  margin-bottom: 2px;
 }
 
 .arrow {
@@ -193,6 +207,7 @@ nav {
 
 .cart {
   margin: 0 8px;
+  margin-top: 4px;
 }
 
 .cart img {
@@ -205,8 +220,9 @@ nav {
 .categories-tab {
   height: 40px;
   display: flex;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16);
+  /* box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.16); */
   margin-top: 56px;
+  background-color: #fff;
 }
 
 .categories-tab-container {
@@ -226,12 +242,16 @@ nav {
   height: 100%;
 }
 
+.categories-tab-container li:nth-child(n + 8) .category-arrow {
+  display: none;
+}
+
 .category {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
-  font-size: 13.5px;
+  font-size: 13.2px;
   height: 40px;
   line-height: 19.6px;
   font-family: var(--font-semiBold);
@@ -251,6 +271,8 @@ nav {
   padding: 8px;
   display: flex;
   background-color: var(--body-color);
+  max-width: 1680px;
+  margin: 0 auto;
 }
 
 /* _____---------- Filter section ----------_____ */
