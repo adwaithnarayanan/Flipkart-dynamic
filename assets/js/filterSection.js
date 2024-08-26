@@ -605,7 +605,6 @@ class FilterSection {
 
     dropDowns.forEach((dropdown) => {
       dropdown.addEventListener("change", (e) => {
-        console.log("before:: min-", this._minValue, "max- ", this._maxValue);
         if (dropdown.id === "min-price")
           this._minValue = isNaN(e.target.value) ? 0 : Number(e.target.value);
         else if (dropdown.id === "max-price") {
@@ -613,8 +612,6 @@ class FilterSection {
             ? 35000
             : Number(e.target.value);
         }
-
-        console.log("after:: min-", this._minValue, "max- ", this._maxValue);
 
         this._updateDropdown(this._minValue, this._maxValue);
       });
