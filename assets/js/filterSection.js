@@ -614,6 +614,7 @@ class FilterSection {
         }
 
         this._updateDropdown(this._minValue, this._maxValue);
+        // this._updatePriceRange();
       });
     });
 
@@ -706,12 +707,15 @@ class FilterSection {
     this.filteredPrice = [];
     const mobiles = [...this._data.productItems];
 
-    if (this._maxValue > 30000) this._maxValue = 35000;
+    let newMaxValue = 0;
+
+    if (this._maxValue > 30000) newMaxValue = 99999999;
+    else newMaxValue = this._maxValue;
 
     for (let i = 0; i < mobiles.length; i++) {
       if (
         mobiles[i].price >= this._minValue &&
-        mobiles[i].price <= this._maxValue
+        mobiles[i].price <= newMaxValue
       ) {
         if (this.filteredPrice.includes(mobiles[i].price)) {
           continue;
