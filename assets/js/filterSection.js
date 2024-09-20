@@ -374,7 +374,7 @@ class FilterSection {
         this._checkForCheckedBrands();
         this._checkForCheckedRatings();
         this._checkForCheckedRAMs();
-        this._checkForCheckedRatings();
+        // this._checkForCheckedRatings();
         this._checkForCheckedDiscounts();
       }
 
@@ -630,7 +630,6 @@ class FilterSection {
     ratings.forEach((rating) => {
       rating.addEventListener("click", (e) => {
         const text = e.target.nextElementSibling.textContent;
-
         if (e.target.checked) this._filterValue(text, e.target.id);
         else if (!e.target.checked) this._clearFromFiltered(e.target.id);
 
@@ -641,6 +640,7 @@ class FilterSection {
     rams.forEach((ram) => {
       ram.addEventListener("click", (e) => {
         const text = ram.nextElementSibling.textContent;
+        console.log(text);
 
         if (e.target.checked) this._filterValue(text, ram.id);
         else if (!e.target.checked) this._clearFromFiltered(e.target.id);

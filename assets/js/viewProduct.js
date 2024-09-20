@@ -84,7 +84,7 @@ class ViewProducts {
         const highlights = this._createHighlights(mobile.highlights);
 
         li.innerHTML = `
-  
+   
           <div class="product-card">
                 <div class="product-img">
                   <div class="img">
@@ -122,7 +122,7 @@ class ViewProducts {
                     ${highlights.outerHTML}
                   </div>
                   <div class="product-price-offer">
-                    <div class="price-assured">
+                    <div class="price-assured"> 
                       <div class="product-price">
                         <span class="price">${
                           "₹ " + mobile.price.toLocaleString()
@@ -132,7 +132,7 @@ class ViewProducts {
                             "₹ " + mobile.mrp.toLocaleString()
                           }</span>
                           <span class="off-on-mrp">${off}% off</span>
-                        </span>
+                        </span>   
                         <span class="delivery">Free delivery</span>
                       </div>
                       ${mobile.isSponsored ? "" : assuredIcon}
@@ -143,15 +143,6 @@ class ViewProducts {
               </div>
   
           `;
-
-        /*
-  
-          <span class="discount-offer">Top Discount of the Sale</span>
-          <span class="exchange-offer">
-              Upto <span>₹36,300</span> Off on Exchange
-          </span>
-  
-          */
 
         li.addEventListener("mouseenter", this._mouseEnterOnProduct);
         li.addEventListener("mouseleave", this._mouseLeaveOnProduct);
@@ -255,7 +246,6 @@ class ViewProducts {
           this.currentPageNumber = this.totalPages;
         }
 
-        this._buttonCommonFunCalls();
         console.log(this._pages[this.currentPageNumber - 1]);
         this._pages[this.currentPageNumber - 1].classList.add("active-page");
       });
