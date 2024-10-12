@@ -1,5 +1,3 @@
-//
-
 "use strict";
 
 import navbar from "./navbar.js";
